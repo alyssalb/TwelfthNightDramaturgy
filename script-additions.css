@@ -1,0 +1,30 @@
+/* Script page additions: line links, character picker, production notes.
+   I paste this block into assets/style.css before the footer rule. */
+:root { --note-cut: #B98A1F; --note-adapt: #1D6B70; --note-stage: #5F8A66; --note-dram: #4A6FA5; --note-tint: rgba(29,107,112,.12); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --note-cut: #D9AE48; --note-adapt: #5FB4B8; --note-stage: #8DB594; --note-dram: #8FB0DE; --note-tint: rgba(95,180,184,.16); } }
+:root[data-theme="dark"] { --note-cut: #D9AE48; --note-adapt: #5FB4B8; --note-stage: #8DB594; --note-dram: #8FB0DE; --note-tint: rgba(95,180,184,.16); }
+
+.whopick { display: inline-flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.whopick label { font-size: .95rem; }
+.whopick select.btn { font: inherit; }
+.lnk { position: absolute; top: 0; right: 0; font: inherit; font-size: .75rem; color: var(--muted); background: none; border: 0; padding: .1rem .3rem; cursor: pointer; opacity: .55; text-decoration: underline dotted; }
+.speech:hover .lnk, .lnk:focus-visible { opacity: 1; }
+.lnk:focus-visible, .nt:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.l.target { background: var(--mark); border-radius: 3px; box-shadow: -.4rem 0 0 var(--mark), .4rem 0 0 var(--mark); }
+
+button.nt { display: inline-block; vertical-align: middle; margin-left: .5rem; font: inherit; font-size: .72rem; line-height: 1.5; color: var(--fg); background: var(--surface);
+  border: 1px solid var(--tc); border-radius: 999px; padding: 0 .55rem; cursor: pointer; text-indent: 0; white-space: nowrap; }
+button.nt::before { content: ""; display: inline-block; width: .5rem; height: .5rem; border-radius: 50%; background: var(--tc); margin-right: .3rem; }
+button.nt[aria-expanded="true"] { background: var(--note-tint); }
+[data-type="cut"] { --tc: var(--note-cut); } [data-type="adapt"] { --tc: var(--note-adapt); } [data-type="stage"] { --tc: var(--note-stage); } [data-type="dram"] { --tc: var(--note-dram); }
+.card.notecard { border-left-color: var(--tc); }
+.scenenotes { max-width: 46rem; margin: 0 0 1.4rem; }
+.scenenotes h3 { font-size: 1rem; margin: 0 0 .3rem; }
+.scenenotes .card { margin-left: 0; }
+.nt-off .nt, .nt-off .scenenotes, .nt-off .notecard { display: none; }
+
+.whoOn .speech:not(.mine), .whoOn .dirline { opacity: .32; }
+.whoOn .speech.mine .who { color: var(--accent); }
+:root:not([data-theme="dark"]) .whoOn .speech.mine .who { color: var(--teal); }
+.whoHide .speech:not(.mine), .whoHide .dirline { display: none; }
+@media print { .tools, .lnk, .scenenav, .nt, #lights, .site { display: none !important; } .speech { break-inside: avoid; } }

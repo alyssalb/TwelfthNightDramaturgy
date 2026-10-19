@@ -1,0 +1,45 @@
+{
+  "about": "Production notes for the script. Each note has a scene id (like a1s2), an optional line number from my cut (leave line out and the note shows at the top of the scene), a type (cut, adapt, stage or dram), an author, and text. The first four are drafts from what I have already decided. I edit or delete them.",
+  "types": {
+    "cut": "Cut",
+    "adapt": "Adaptation",
+    "stage": "Staging",
+    "dram": "Dramaturgy"
+  },
+  "notes": [
+    {
+      "scene": "a1s2",
+      "line": 2,
+      "type": "stage",
+      "author": "Example author",
+      "text": "EXAMPLE: this is what a production note looks like. I delete this one before sharing the site."
+    },
+    {
+      "scene": "a1s2",
+      "line": 52,
+      "type": "adapt",
+      "author": "Draft from my notes. I confirm or change.",
+      "text": "Viola's disguise is central to her gender journey in our version. It starts as protection and turns into experimentation and euphoria."
+    },
+    {
+      "scene": "a2s5",
+      "line": 134,
+      "type": "adapt",
+      "author": "Draft from my notes. I confirm or change.",
+      "text": "The mocking plot must not mock self-expression, so the forged letter needs a different target in our version."
+    },
+    {
+      "scene": "a3s4",
+      "type": "dram",
+      "author": "Open question",
+      "text": "The yellow stockings and cross-garters humiliation needs a different target in the Keys. What is Malvolio actually ashamed of?"
+    },
+    {
+      "scene": "a5s1",
+      "line": 359,
+      "type": "adapt",
+      "author": "Draft from my notes. I confirm or change.",
+      "text": "Orsino keeps using the name Cesario, which can imply attraction to that side of Viola. We are working on how to queer the ending so queerness is not resolved away."
+    }
+  ]
+}
