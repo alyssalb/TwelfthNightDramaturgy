@@ -1,0 +1,26 @@
+/* Long reading pages (About, Key West, Queer themes, Class themes) */
+.prose h2 { margin-top: 2.2rem; }
+.prose > h2:first-child, .prose > p:first-child + h2 { margin-top: 1.6rem; }
+.prose h3 { margin: 1.6rem 0 .5rem; }
+.prose ul, .prose ol { max-width: 62ch; padding-left: 1.3rem; margin: 0 0 1em; }
+.prose li { margin-bottom: .55rem; }
+.prose li > ul, .prose li > ol { margin: .5rem 0 .2rem; }
+.prose blockquote { margin: 1.2rem 0; padding: .1rem 1.2rem; max-width: 62ch; border-left: 4px solid var(--accent); font-style: italic; }
+.prose blockquote p { margin: .6rem 0; }
+.prose figure { margin: 1.5rem 0; max-width: 40rem; }
+.prose figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.prose figcaption { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
+.prose .note { border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: .7rem 1rem; background: var(--bg); }
+.tablewrap { overflow-x: auto; margin: 1.2rem 0; }
+.tablewrap table { border-collapse: collapse; min-width: 100%; font-size: .95rem; }
+.tablewrap th, .tablewrap td { text-align: left; vertical-align: top; padding: .55rem .7rem; border-bottom: 1px solid var(--line); }
+.tablewrap th { border-bottom: 2px solid var(--accent); }
+
+/* Dropdown definition terms */
+button.dd {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer;
+  border-bottom: 2px dotted var(--accent); line-height: inherit; text-align: inherit; display: inline;
+}
+button.dd::after { content: " \25BE"; font-size: .75em; color: var(--accent); }
+button.dd:hover, button.dd[aria-expanded="true"] { background: var(--mark); }
+.prose .ddcard { margin: .5rem 0 .4rem 0; display: block; }

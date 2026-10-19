@@ -1,0 +1,1424 @@
+{
+ "about": "Concept map data. Each node has an Illyria version and a Key West version. basis: notes = from the team's concept-map notes; stated = a production decision stated in conversation; draft = a first guess to confirm. An edge label reads as a sentence: [a] [label] [b]. Change any text here.",
+ "nodes": [
+  {
+   "id": "viola",
+   "type": "character",
+   "illyria": {
+    "label": "Viola / Cesario",
+    "note": "Shipwrecked, believes her brother drowned, and takes service with Orsino disguised as a young man. She falls for Orsino while wooing Olivia for him."
+   },
+   "keys": {
+    "label": "Viola / Cesario",
+    "note": "The disguise starts as protection and turns into experimentation and euphoria. In our interpretation she is some form of nonbinary, and her gender journey is central. Where she comes from is still open.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "Boys and young men played all the female roles, so Viola was a boy playing a woman who disguises herself as a boy.",
+     "u": "about.html"
+    },
+    {
+     "t": "The cross-dressed heroine who provokes female desire is an Italian theatre motif; English playwrights keep it but tone down the charge of it.",
+     "u": "about.html"
+    }
+   ],
+   "page": "queer-themes.html",
+   "scenes": [
+    "a1s2",
+    "a1s4",
+    "a2s2",
+    "a3s1",
+    "a3s4",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "sebastian",
+   "type": "character",
+   "illyria": {
+    "label": "Sebastian",
+    "note": "Viola's twin, also shipwrecked and thought drowned. Mistaken for Cesario, he is claimed by Olivia and marries her."
+   },
+   "keys": {
+    "label": "Sebastian",
+    "note": "Viola's twin. Possibly part of a throuple with Olivia and Antonio.",
+    "basis": "stated"
+   },
+   "page": "key-west.html",
+   "scenes": [
+    "a2s1",
+    "a3s3",
+    "a4s1",
+    "a4s3",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "antonio",
+   "type": "character",
+   "illyria": {
+    "label": "Antonio",
+    "note": "A sea captain who rescued Sebastian and follows him into Orsino's territory at risk of arrest. He is arrested after mistaking Viola for Sebastian."
+   },
+   "keys": {
+    "label": "Antonio",
+    "note": "Stays Antonio. Possibly part of a throuple with Olivia and Sebastian. DRAFT: a working-waterfront figure, which fits the maritime economy (fishing, turtling, sponging, wrecking) that built the Keys.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "The early Keys economy was built on fishing, turtling, sponging, and wrecking.",
+     "u": "key-west.html"
+    }
+   ],
+   "page": "key-west.html",
+   "scenes": [
+    "a2s1",
+    "a3s3",
+    "a3s4",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "orsino",
+   "type": "character",
+   "illyria": {
+    "label": "Orsino",
+    "note": "Duke of Illyria, lovesick and fond of his own sorrow. He sends Cesario to woo Olivia and ends the play claiming Viola."
+   },
+   "keys": {
+    "label": "Orsino",
+    "note": "New-money transplant who lives in Bahama Village and runs a business; he saw opportunity in the tourism trade. Orsino and Viola read as queer.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "Renaissance melancholy: lethargic, drawn to music and poetry, fond of his own sorrow as proof of the depth of his feeling.",
+     "u": "about.html"
+    }
+   ],
+   "page": "queer-themes.html",
+   "scenes": [
+    "a1s1",
+    "a1s4",
+    "a2s4",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "olivia",
+   "type": "character",
+   "illyria": {
+    "label": "Olivia",
+    "note": "A countess mourning her brother for seven years, which is exaggerated mourning. She unveils for Cesario, falls in love, and marries Sebastian by mistake."
+   },
+   "keys": {
+    "label": "Olivia",
+    "note": "Old money, local, from a long-established conch family. A business owner. Possibly part of a throuple with Sebastian and Antonio.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "Conch: long-term inhabitants of Key West, usually with Bahamian and Caribbean lineage dating back to the nineteenth century.",
+     "u": "class-themes.html"
+    },
+    {
+     "t": "Olivia's seven years of mourning is exaggerated mourning.",
+     "u": "about.html"
+    }
+   ],
+   "page": "class-themes.html",
+   "scenes": [
+    "a1s1",
+    "a1s5",
+    "a3s1",
+    "a4s1",
+    "a4s3",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "malvolio",
+   "type": "character",
+   "illyria": {
+    "label": "Malvolio",
+    "note": "Olivia's steward, called \"a kind of Puritan,\" who imagines himself as Olivia's husband and ruler. He follows the forged letter, is treated as mad, and exits vowing revenge."
+   },
+   "keys": {
+    "label": "Malvolio",
+    "note": "Ex or current military: a symbol of governmental authority over Key West. Getting rid of him frees everyone to be what they are? Maps onto the Puritan reading. The mocking plot must not mock self-expression.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "He imagines himself in various ways as Olivia's husband, and therefore her ruler or better.",
+     "u": "about.html"
+    },
+    {
+     "t": "Sumptuary laws restricted fabrics, colors, and styles to rank and gender, which is part of why his clothes matter.",
+     "u": "about.html"
+    },
+    {
+     "t": "Mobility of desire, Malvolio's or anyone's, is largely determined and controlled by the upper classes.",
+     "u": "class-themes.html"
+    },
+    {
+     "t": "Military personnel and families, mostly connected to Naval Air Station, are one of Key West's community groups.",
+     "u": "class-themes.html"
+    }
+   ],
+   "page": "class-themes.html",
+   "scenes": [
+    "a1s5",
+    "a2s3",
+    "a2s5",
+    "a3s4",
+    "a4s2",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "maria",
+   "type": "character",
+   "illyria": {
+    "label": "Maria",
+    "note": "Olivia's gentlewoman. She forges the letter to take revenge on Malvolio, and marries Sir Toby."
+   },
+   "keys": {
+    "label": "Maria",
+    "note": "A local with a history with Olivia's house and family.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "Sir Toby's Lady of Misrule: with him, a strong candidate for the play's festive ringleader.",
+     "u": "about.html"
+    },
+    {
+     "t": "In early modern London, women of lower status, often servants, sometimes married their masters, which allowed social mobility through marriage.",
+     "u": "class-themes.html"
+    }
+   ],
+   "page": "class-themes.html",
+   "scenes": [
+    "a1s3",
+    "a2s3",
+    "a2s5",
+    "a4s2",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "feste",
+   "type": "character",
+   "illyria": {
+    "label": "Feste",
+    "note": "Olivia's allowed fool. He sings, trades words with everyone, and plays Sir Topas to torment Malvolio."
+   },
+   "keys": {
+    "label": "Feste",
+    "note": "DRAFT: an entertainer who moves between the households and the bars, and the only person on the island who can say what he likes to anyone.",
+    "basis": "draft"
+   },
+   "context": [
+    {
+     "t": "An allowed fool, generally considered the Lord of Misrule because he is the only person allowed to criticize his superiors without endangering his position or life.",
+     "u": "about.html"
+    },
+    {
+     "t": "But he is always allowed this freedom within the confines of his job.",
+     "u": "about.html"
+    }
+   ],
+   "page": "about.html",
+   "scenes": [
+    "a1s5",
+    "a2s3",
+    "a2s4",
+    "a3s1",
+    "a4s2",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "toby",
+   "type": "character",
+   "illyria": {
+    "label": "Sir Toby Belch",
+    "note": "Olivia's uncle, a drinker who runs the nightly revels, keeps Sir Andrew around as a suitor and a source of money, and enjoys the plot against Malvolio."
+   },
+   "keys": {
+    "label": "Sir Toby",
+    "note": "Old money local, but not in spirit: co-opting the culture, inauthentic.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "Another candidate for the Lord of Misrule: he orchestrates the foolishness, revelry, and mischief around him.",
+     "u": "about.html"
+    }
+   ],
+   "page": "about.html",
+   "scenes": [
+    "a1s3",
+    "a2s3",
+    "a2s5",
+    "a3s2",
+    "a3s4",
+    "a4s1",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "andrew",
+   "type": "character",
+   "illyria": {
+    "label": "Sir Andrew Aguecheek",
+    "note": "A foolish knight and suitor with money. Toby calls it \"three thousand ducats a year.\" Talked into a duel with Cesario."
+   },
+   "keys": {
+    "label": "Sir Andrew",
+    "note": "A big tourist, here because Toby drew him in.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "Tourists sustain the island's economy; many lower-income people work multiple jobs in tourism during the season.",
+     "u": "class-themes.html"
+    }
+   ],
+   "page": "class-themes.html",
+   "scenes": [
+    "a1s3",
+    "a2s3",
+    "a3s2",
+    "a3s4",
+    "a4s1",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "fabian",
+   "type": "character",
+   "illyria": {
+    "label": "Fabian",
+    "note": "A member of Olivia's household who joins the plot against Malvolio."
+   },
+   "keys": {
+    "label": "Fabian",
+    "note": "NOT YET MAPPED. A member of Olivia's household who joins the plot. Your call on who he is in the Keys.",
+    "basis": "draft"
+   },
+   "scenes": [
+    "a2s5",
+    "a3s2",
+    "a3s4",
+    "a5s1"
+   ]
+  },
+  {
+   "id": "a-wreck",
+   "type": "action",
+   "illyria": {
+    "label": "The shipwreck",
+    "note": "Viola is washed ashore in Illyria and learns that her brother may have drowned."
+   },
+   "keys": {
+    "label": "The shipwreck",
+    "note": "The shipwreck is central. Wrecks were common in the choppy waters around the Keys. DRAFT: how and from where Viola and Sebastian arrive is still open.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Wrecking, retrieving valuable items from shipwrecks, was part of the early Keys economy.",
+     "u": "key-west.html"
+    }
+   ],
+   "page": "key-west.html",
+   "scenes": [
+    "a1s2"
+   ]
+  },
+  {
+   "id": "a-disguise",
+   "type": "action",
+   "illyria": {
+    "label": "Viola becomes Cesario",
+    "note": "Viola decides to serve Orsino disguised as a eunuch (1.2, line 52)."
+   },
+   "keys": {
+    "label": "Viola takes on a new name and presentation",
+    "note": "Disguise as an assumption of what will protect her, turning into experimentation and euphoria. Her gender journey is central.",
+    "basis": "notes"
+   },
+   "page": "queer-themes.html",
+   "scenes": [
+    "a1s2",
+    "a1s4"
+   ]
+  },
+  {
+   "id": "a-woo",
+   "type": "action",
+   "illyria": {
+    "label": "Cesario sent to woo Olivia",
+    "note": "Orsino trusts Cesario with his love and sends him to Olivia. Viola says aside, \"Whoe'er I woo, myself would be his wife\" (1.4, line 43)."
+   },
+   "keys": {
+    "label": "The messenger carries the message",
+    "note": "DRAFT: Orsino, new money, sends his newest confidant to Olivia, old money. Class gap and queer desire in the same errand.",
+    "basis": "draft"
+   },
+   "page": "class-themes.html",
+   "scenes": [
+    "a1s4",
+    "a1s5"
+   ]
+  },
+  {
+   "id": "a-mourn",
+   "type": "action",
+   "illyria": {
+    "label": "Olivia's seven-year mourning",
+    "note": "Olivia veils herself and closes her house to suitors. Valentine reports it to Orsino (1.1, line 24)."
+   },
+   "keys": {
+    "label": "Olivia shuts herself away",
+    "note": "Olivia's family is long-established local. DRAFT: how a locally rooted house closes itself off from the tourist-facing island is still open.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Olivia's seven years of mourning is exaggerated mourning.",
+     "u": "about.html"
+    }
+   ],
+   "page": "about.html",
+   "scenes": [
+    "a1s1",
+    "a1s5"
+   ]
+  },
+  {
+   "id": "a-ring",
+   "type": "action",
+   "illyria": {
+    "label": "The ring",
+    "note": "Olivia falls for Cesario and sends a ring after him (1.5, lines 266-267). Viola realizes: \"Disguise, I see thou art a wickedness\" (2.2, line 27)."
+   },
+   "keys": {
+    "label": "The ring",
+    "note": "DRAFT: the same beat. Desire crosses gender and class in one gesture, and Viola sees what the disguise has done.",
+    "basis": "draft"
+   },
+   "page": "queer-themes.html",
+   "scenes": [
+    "a1s5",
+    "a2s2"
+   ]
+  },
+  {
+   "id": "a-revel",
+   "type": "action",
+   "illyria": {
+    "label": "The night revel",
+    "note": "Toby, Andrew, and Feste carouse. Malvolio scolds them. Maria sets out to take revenge on him (2.3, line 105)."
+   },
+   "keys": {
+    "label": "The late night",
+    "note": "Fantasy Fest is a conceptual touchpoint, not the setting. Misrule is the point: rules loosen, and the question is who gets to keep having fun.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "The Lord of Misrule orchestrates the revels so class conventions collapse and everyone can party together; servants and masters may even swap roles for a while.",
+     "u": "about.html"
+    }
+   ],
+   "page": "about.html",
+   "scenes": [
+    "a2s3"
+   ]
+  },
+  {
+   "id": "a-letter",
+   "type": "action",
+   "illyria": {
+    "label": "The forged letter",
+    "note": "Maria forges Olivia's handwriting. Malvolio finds the letter and reads it as a promise of love and greatness (2.5, line 134)."
+   },
+   "keys": {
+    "label": "The forged letter",
+    "note": "The mocking plot must not mock self-expression. DRAFT: what the letter promises and what it targets in the Keys is still open.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "\"Some are born great, some achieve greatness, and some have greatness thrust upon 'em.\"",
+     "u": "script.html#a2s5"
+    }
+   ],
+   "page": "class-themes.html",
+   "scenes": [
+    "a2s5"
+   ]
+  },
+  {
+   "id": "a-stockings",
+   "type": "action",
+   "illyria": {
+    "label": "Yellow stockings and cross-garters",
+    "note": "Malvolio, following the letter, smiles and wears yellow stockings and cross-garters. Olivia is in mourning, and dislikes both the yellow and the crossed garters. He is treated as mad (3.4)."
+   },
+   "keys": {
+    "label": "The humiliation",
+    "note": "The mocking plot must not mock self-expression, so the humiliation needs a different target. Open question: what is Malvolio actually ashamed of in the Keys?",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Sumptuary laws restricted certain fabrics, colors, and styles of clothing to rank and gender.",
+     "u": "about.html"
+    }
+   ],
+   "page": "class-themes.html",
+   "scenes": [
+    "a3s4"
+   ]
+  },
+  {
+   "id": "a-duel",
+   "type": "action",
+   "illyria": {
+    "label": "The duel",
+    "note": "Toby and Fabian talk Andrew into challenging Cesario, then convince both that the other is a fierce fighter (3.2, 3.4). Antonio steps in and is arrested."
+   },
+   "keys": {
+    "label": "The duel",
+    "note": "DRAFT: a staged fight between a frightened tourist and a frightened newcomer, with a local passing as a fighter. Antonio's arrest as a working-waterfront man taken in by the authorities.",
+    "basis": "draft"
+   },
+   "page": "class-themes.html",
+   "scenes": [
+    "a3s2",
+    "a3s4"
+   ]
+  },
+  {
+   "id": "a-confine",
+   "type": "action",
+   "illyria": {
+    "label": "Malvolio in darkness",
+    "note": "Malvolio is locked in a dark room and tormented by Feste as Sir Topas (4.2)."
+   },
+   "keys": {
+    "label": "The confinement",
+    "note": "The authority figure is shut away. Getting rid of him frees them to be what they are? Must not mock self-expression.",
+    "basis": "notes"
+   },
+   "page": "about.html",
+   "scenes": [
+    "a4s2"
+   ]
+  },
+  {
+   "id": "a-mixup",
+   "type": "action",
+   "illyria": {
+    "label": "Sebastian is mistaken for Cesario",
+    "note": "Olivia claims Sebastian, takes him into her house (4.1, line 59), and arranges the marriage (4.3, line 22)."
+   },
+   "keys": {
+    "label": "The mistaken twin",
+    "note": "Possibly a throuple with Olivia, Sebastian, and Antonio.",
+    "basis": "stated"
+   },
+   "page": "queer-themes.html",
+   "scenes": [
+    "a4s1",
+    "a4s3"
+   ]
+  },
+  {
+   "id": "a-ending",
+   "type": "action",
+   "illyria": {
+    "label": "The recognition and the ending",
+    "note": "The twins meet, Viola names herself, couples form, and Malvolio vows revenge. Orsino: \"Cesario, come, for so you shall be while you are a man\" (5.1, lines 359-362)."
+   },
+   "keys": {
+    "label": "The ending",
+    "note": "The audience should not leave thinking queerness can be grown out of, or that you can find the right man. Viola is some form of nonbinary, so no detransitioning because you get a boyfriend. We are working on how to queer the ending.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Orsino keeps using Cesario, the name from when he believed Viola a man, which can imply attraction to that side of her.",
+     "u": "queer-themes.html"
+    },
+    {
+     "t": "At the end of the play, misrule and romance give way to the everyday world and Malvolio swears revenge. The usual rules and status return.",
+     "u": "about.html"
+    }
+   ],
+   "page": "queer-themes.html",
+   "scenes": [
+    "a5s1"
+   ]
+  },
+  {
+   "id": "t-class",
+   "type": "theme",
+   "illyria": {
+    "label": "Class and social climbing",
+    "note": "Social standing in Elizabethan England was shifting from land ownership toward money, profession, family background, and recognition. Malvolio imagines himself Olivia's husband and ruler."
+   },
+   "keys": {
+    "label": "Class and social climbing",
+    "note": "Two worlds in the Keys: the ultra-wealthy (transplants, second homeowners, vacationers) and locals struggling with a very high cost of living. Who is born into money, who comes into it, and who experiences neither?",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Most people were lower class, 90 to 95 percent of the population, according to Lawrence Stone.",
+     "u": "class-themes.html"
+    },
+    {
+     "t": "About 44% of Key West households are below the ALICE threshold (Asset Limited, Income Constrained, Employed).",
+     "u": "key-west.html"
+    }
+   ],
+   "page": "class-themes.html"
+  },
+  {
+   "id": "t-queer",
+   "type": "theme",
+   "illyria": {
+    "label": "Queer identity and desire",
+    "note": "Gender disguise provokes desire across gender lines. Boys played women, and the play can be read queerly in many places."
+   },
+   "keys": {
+    "label": "Queer identity and desire",
+    "note": "Key West is a long-time safe space for queer people. Our production takes a queer lens, not just added queer elements.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "The 1533 act condemned \"buggery\" as a crime punishable by death; it was hard to prosecute because it required a witness.",
+     "u": "queer-themes.html"
+    }
+   ],
+   "page": "queer-themes.html"
+  },
+  {
+   "id": "t-gender",
+   "type": "theme",
+   "illyria": {
+    "label": "Gender and disguise",
+    "note": "Viola's disguise lets her move through a world that treats gender expression as a safety question."
+   },
+   "keys": {
+    "label": "Gender and performance",
+    "note": "Gender as a performance (Judith Butler): what we are almost forced to put on. A modern AFAB person crossdressing for safety would not make sense now, so Viola needs a new reason.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Women in men's clothes could be punished very harshly offstage at this time.",
+     "u": "about.html"
+    }
+   ],
+   "page": "queer-themes.html"
+  },
+  {
+   "id": "t-misrule",
+   "type": "theme",
+   "illyria": {
+    "label": "Misrule and permitted release",
+    "note": "The festive world of the Lord of Misrule: class rules collapse for a while, and then the usual rules return."
+   },
+   "keys": {
+    "label": "Misrule and permitted release",
+    "note": "Fantasy Fest is a conceptual touchpoint. It began in 1979 to draw tourists in the slow season, so who is the release for, and who pays for the fun?",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Bakhtin's carnivalesque: carnival is a liminal time and space where we can ignore the norms of real life. It is safe even for the governing class because you go back to who you are.",
+     "u": "about.html"
+    },
+    {
+     "t": "Authentic rebellion versus permitted release: are the characters in a temporary, permitted release, or a rebellion that outlasts the carnival?",
+     "u": "about.html"
+    }
+   ],
+   "page": "about.html"
+  },
+  {
+   "id": "t-grief",
+   "type": "theme",
+   "illyria": {
+    "label": "Grief and melancholy",
+    "note": "Renaissance melancholy was treated as an illness, an imbalance of bodily fluids. Orsino loves his own sorrow. Olivia's mourning is exaggerated."
+   },
+   "keys": {
+    "label": "Grief and melancholy",
+    "note": "DRAFT: grief and performed feeling in a place built on leisure. Still open.",
+    "basis": "draft"
+   },
+   "page": "about.html"
+  },
+  {
+   "id": "t-marriage",
+   "type": "theme",
+   "illyria": {
+    "label": "Marriage and money",
+    "note": "Marriage in Elizabethan England was shaped by family expectations, social standing, and political and economic interests, and divorce was impossible."
+   },
+   "keys": {
+    "label": "Marriage and money",
+    "note": "DRAFT: couplings that cross class and queer lines, and the question of who ends up with the house and the business. Possible throuple.",
+    "basis": "draft"
+   },
+   "context": [
+    {
+     "t": "Most people married in their mid to late twenties; the legal age of consent may have been as low as 12 for girls and 14 for boys.",
+     "u": "about.html"
+    },
+    {
+     "t": "Marrying someone of a different social standing was generally discouraged among the elite.",
+     "u": "class-themes.html"
+    }
+   ],
+   "page": "class-themes.html"
+  },
+  {
+   "id": "p-bahama",
+   "type": "place",
+   "illyria": {
+    "label": "Orsino's court",
+    "note": "Orsino's household, where Cesario serves and where music and love-talk fill the air."
+   },
+   "keys": {
+    "label": "Bahama Village",
+    "note": "Key West's historically Bahamian and Caribbean neighborhood. Orsino lives here, and it is gentrifying. Goombay is its festival.",
+    "basis": "notes"
+   },
+   "context": [
+    {
+     "t": "The neighborhood is now 56% white, though about 13% of Key West is Black.",
+     "u": "key-west.html"
+    }
+   ],
+   "page": "key-west.html"
+  },
+  {
+   "id": "p-oldtown",
+   "type": "place",
+   "illyria": {
+    "label": "Olivia's house",
+    "note": "A great household with a steward, a gentlewoman, a fool, and a drinking uncle."
+   },
+   "keys": {
+    "label": "Old Town / the west side",
+    "note": "DRAFT: where long-established houses are. The priciest houses are on the west side of the island (Old Town, Casa Marina, The Meadows).",
+    "basis": "draft"
+   },
+   "page": "key-west.html"
+  },
+  {
+   "id": "p-duval",
+   "type": "place",
+   "illyria": {
+    "label": "The revel nights",
+    "note": "Late nights in Olivia's house, with wine, songs, and a steward who objects."
+   },
+   "keys": {
+    "label": "Duval Street",
+    "note": "DRAFT: the tourist-facing main street. The Fantasy Fest Street Fair is held here, and Goombay is just off it.",
+    "basis": "draft"
+   },
+   "page": "key-west.html"
+  },
+  {
+   "id": "p-fantasy",
+   "type": "place",
+   "illyria": {
+    "label": "The Twelfth Night revels",
+    "note": "The Lord of Misrule's season, when class collapses for a short time."
+   },
+   "keys": {
+    "label": "Fantasy Fest",
+    "note": "The 10-day celebration. A conceptual touchpoint, not the setting.",
+    "basis": "stated"
+   },
+   "context": [
+    {
+     "t": "Fantasy Fest began in 1979 to draw tourists in the slow season.",
+     "u": "key-west.html"
+    }
+   ],
+   "page": "key-west.html"
+  },
+  {
+   "id": "p-sunset",
+   "type": "place",
+   "illyria": {
+    "label": "Great houses",
+    "note": "The wealth that sits at the top of Illyria's hierarchy."
+   },
+   "keys": {
+    "label": "Sunset Key and the luxury end",
+    "note": "An offshoot of Key West known for pricey luxury homes. The median home sold is worth $6.6 million.",
+    "basis": "draft"
+   },
+   "page": "key-west.html"
+  },
+  {
+   "id": "p-stock",
+   "type": "place",
+   "illyria": {
+    "label": "The servants' side",
+    "note": "Where those who serve the great houses live."
+   },
+   "keys": {
+    "label": "Stock Island",
+    "note": "DRAFT: east of Key West, a working-class neighborhood where many workers live and commute from because housing is less expensive.",
+    "basis": "draft"
+   },
+   "page": "class-themes.html"
+  },
+  {
+   "id": "p-water",
+   "type": "place",
+   "illyria": {
+    "label": "The seacoast",
+    "note": "Where Viola, Sebastian, and Antonio come ashore."
+   },
+   "keys": {
+    "label": "The water",
+    "note": "The choppy waters around the Keys, where wrecks were common.",
+    "basis": "stated"
+   },
+   "page": "key-west.html"
+  }
+ ],
+ "edges": [
+  {
+   "a": "viola",
+   "b": "orsino",
+   "label": "serves and loves"
+  },
+  {
+   "a": "viola",
+   "b": "olivia",
+   "label": "woos on behalf of Orsino, and is loved by"
+  },
+  {
+   "a": "viola",
+   "b": "sebastian",
+   "label": "is the twin of"
+  },
+  {
+   "a": "sebastian",
+   "b": "olivia",
+   "label": "marries"
+  },
+  {
+   "a": "sebastian",
+   "b": "antonio",
+   "label": "was rescued by"
+  },
+  {
+   "a": "olivia",
+   "b": "orsino",
+   "label": "refuses"
+  },
+  {
+   "a": "olivia",
+   "b": "malvolio",
+   "label": "employs"
+  },
+  {
+   "a": "olivia",
+   "b": "maria",
+   "label": "employs"
+  },
+  {
+   "a": "olivia",
+   "b": "toby",
+   "label": "is the niece of"
+  },
+  {
+   "a": "olivia",
+   "b": "feste",
+   "label": "employs"
+  },
+  {
+   "a": "maria",
+   "b": "toby",
+   "label": "marries"
+  },
+  {
+   "a": "maria",
+   "b": "malvolio",
+   "label": "plots against"
+  },
+  {
+   "a": "toby",
+   "b": "andrew",
+   "label": "keeps around"
+  },
+  {
+   "a": "feste",
+   "b": "malvolio",
+   "label": "torments (as Sir Topas)"
+  },
+  {
+   "a": "toby",
+   "b": "fabian",
+   "label": "plots with"
+  },
+  {
+   "a": "toby",
+   "b": "malvolio",
+   "label": "scorns"
+  },
+  {
+   "a": "fabian",
+   "b": "malvolio",
+   "label": "plots against"
+  },
+  {
+   "a": "viola",
+   "b": "antonio",
+   "label": "is mistaken for Sebastian by"
+  },
+  {
+   "a": "andrew",
+   "b": "viola",
+   "label": "challenges to a duel"
+  },
+  {
+   "a": "viola",
+   "b": "a-wreck",
+   "label": ""
+  },
+  {
+   "a": "sebastian",
+   "b": "a-wreck",
+   "label": ""
+  },
+  {
+   "a": "antonio",
+   "b": "a-wreck",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "a-disguise",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "a-woo",
+   "label": ""
+  },
+  {
+   "a": "orsino",
+   "b": "a-woo",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "a-woo",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "a-mourn",
+   "label": ""
+  },
+  {
+   "a": "orsino",
+   "b": "a-mourn",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "a-ring",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "a-ring",
+   "label": ""
+  },
+  {
+   "a": "toby",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "andrew",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "maria",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "feste",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "maria",
+   "b": "a-letter",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "a-letter",
+   "label": ""
+  },
+  {
+   "a": "fabian",
+   "b": "a-letter",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "a-stockings",
+   "label": ""
+  },
+  {
+   "a": "maria",
+   "b": "a-stockings",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "a-stockings",
+   "label": ""
+  },
+  {
+   "a": "toby",
+   "b": "a-duel",
+   "label": ""
+  },
+  {
+   "a": "andrew",
+   "b": "a-duel",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "a-duel",
+   "label": ""
+  },
+  {
+   "a": "fabian",
+   "b": "a-duel",
+   "label": ""
+  },
+  {
+   "a": "antonio",
+   "b": "a-duel",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "a-confine",
+   "label": ""
+  },
+  {
+   "a": "feste",
+   "b": "a-confine",
+   "label": ""
+  },
+  {
+   "a": "maria",
+   "b": "a-confine",
+   "label": ""
+  },
+  {
+   "a": "toby",
+   "b": "a-confine",
+   "label": ""
+  },
+  {
+   "a": "sebastian",
+   "b": "a-mixup",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "a-mixup",
+   "label": ""
+  },
+  {
+   "a": "toby",
+   "b": "a-mixup",
+   "label": ""
+  },
+  {
+   "a": "andrew",
+   "b": "a-mixup",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "a-ending",
+   "label": ""
+  },
+  {
+   "a": "sebastian",
+   "b": "a-ending",
+   "label": ""
+  },
+  {
+   "a": "orsino",
+   "b": "a-ending",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "a-ending",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "a-ending",
+   "label": ""
+  },
+  {
+   "a": "antonio",
+   "b": "a-ending",
+   "label": ""
+  },
+  {
+   "a": "a-disguise",
+   "b": "t-gender",
+   "label": ""
+  },
+  {
+   "a": "a-disguise",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "a-woo",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "a-woo",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "a-mourn",
+   "b": "t-grief",
+   "label": ""
+  },
+  {
+   "a": "a-ring",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "a-ring",
+   "b": "t-gender",
+   "label": ""
+  },
+  {
+   "a": "a-revel",
+   "b": "t-misrule",
+   "label": ""
+  },
+  {
+   "a": "a-revel",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "a-letter",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "a-stockings",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "a-stockings",
+   "b": "t-gender",
+   "label": ""
+  },
+  {
+   "a": "a-duel",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "a-confine",
+   "b": "t-misrule",
+   "label": ""
+  },
+  {
+   "a": "a-confine",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "a-mixup",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "a-mixup",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "a-ending",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "a-ending",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "a-ending",
+   "b": "t-misrule",
+   "label": ""
+  },
+  {
+   "a": "a-ending",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "t-gender",
+   "label": ""
+  },
+  {
+   "a": "viola",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "sebastian",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "antonio",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "orsino",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "orsino",
+   "b": "t-grief",
+   "label": ""
+  },
+  {
+   "a": "orsino",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "t-grief",
+   "label": ""
+  },
+  {
+   "a": "olivia",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "malvolio",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "maria",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "maria",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "feste",
+   "b": "t-misrule",
+   "label": ""
+  },
+  {
+   "a": "toby",
+   "b": "t-misrule",
+   "label": ""
+  },
+  {
+   "a": "toby",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "andrew",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "andrew",
+   "b": "t-marriage",
+   "label": ""
+  },
+  {
+   "a": "p-bahama",
+   "b": "orsino",
+   "label": ""
+  },
+  {
+   "a": "p-bahama",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "p-bahama",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "p-oldtown",
+   "b": "olivia",
+   "label": ""
+  },
+  {
+   "a": "p-oldtown",
+   "b": "maria",
+   "label": ""
+  },
+  {
+   "a": "p-oldtown",
+   "b": "malvolio",
+   "label": ""
+  },
+  {
+   "a": "p-oldtown",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "p-duval",
+   "b": "toby",
+   "label": ""
+  },
+  {
+   "a": "p-duval",
+   "b": "andrew",
+   "label": ""
+  },
+  {
+   "a": "p-duval",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "p-fantasy",
+   "b": "a-revel",
+   "label": ""
+  },
+  {
+   "a": "p-fantasy",
+   "b": "t-misrule",
+   "label": ""
+  },
+  {
+   "a": "p-fantasy",
+   "b": "toby",
+   "label": ""
+  },
+  {
+   "a": "p-fantasy",
+   "b": "t-queer",
+   "label": ""
+  },
+  {
+   "a": "p-sunset",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "p-sunset",
+   "b": "orsino",
+   "label": ""
+  },
+  {
+   "a": "p-stock",
+   "b": "t-class",
+   "label": ""
+  },
+  {
+   "a": "p-stock",
+   "b": "maria",
+   "label": ""
+  },
+  {
+   "a": "p-water",
+   "b": "a-wreck",
+   "label": ""
+  },
+  {
+   "a": "p-water",
+   "b": "viola",
+   "label": ""
+  },
+  {
+   "a": "p-water",
+   "b": "sebastian",
+   "label": ""
+  },
+  {
+   "a": "p-water",
+   "b": "antonio",
+   "label": ""
+  },
+  {
+   "a": "p-bahama",
+   "b": "p-fantasy",
+   "label": ""
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+/* Concept map. I paste this block into assets/style.css before the footer rule, replacing any earlier concept map block. */
+:root { --cm-gold: #B98A1F; --cm-salmon: #E4725E; --cm-teal: #1D6B70; --cm-sage: #5F8A66; --cm-il: rgba(191,224,219,.35); --cm-ks: rgba(238,139,121,.14); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --cm-gold: #D9AE48; --cm-salmon: #F29A87; --cm-teal: #5FB4B8; --cm-sage: #8DB594; --cm-il: rgba(95,180,184,.14); --cm-ks: rgba(242,154,135,.12); } }
+:root[data-theme="dark"] { --cm-gold: #D9AE48; --cm-salmon: #F29A87; --cm-teal: #5FB4B8; --cm-sage: #8DB594; --cm-il: rgba(95,180,184,.14); --cm-ks: rgba(242,154,135,.12); }
+
+.cm-intro { max-width: 40rem; margin: 0 0 1rem; }
+.cm-bar { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 3.6rem); z-index: 15; display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; justify-content: space-between;
+  background: var(--bg); padding: .6rem 0; border-bottom: 1px solid var(--line); }
+.cm-view { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); padding: 3px; }
+.cm-view button { font: inherit; font-size: .92rem; color: var(--fg); background: none; border: 0; border-radius: 999px; padding: .4rem .9rem; cursor: pointer; min-height: 38px; }
+.cm-view button[aria-pressed="true"] { background: var(--cm-teal); color: #fff; font-weight: 600; }
+:root[data-theme="dark"] .cm-view button[aria-pressed="true"] { color: #10272B; }
+.cm-nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: .95rem; }
+.cm-nav a { padding: .3rem 0; }
+.cm-sec { padding-top: 1.4rem; scroll-margin-top: 7.5rem; }
+.cm-sec > h3 { font-size: 1.5rem; margin: 0 0 .6rem; }
+.cm-sub { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 1.1rem 0 .4rem; font-weight: 600; }
+.cm-row { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--cm-teal); border-radius: 6px; margin: 0 0 .7rem; padding: .8rem 1rem; scroll-margin-top: 7.5rem; }
+.cm-row[data-type="action"] { border-left-color: var(--cm-salmon); }
+.cm-row[data-type="theme"] { border-left-color: var(--cm-gold); }
+.cm-row[data-type="place"] { border-left-color: var(--cm-sage); }
+.cm-row:target { box-shadow: 0 0 0 3px var(--accent); }
+.cm-head { display: flex; flex-wrap: wrap; gap: .3rem .8rem; align-items: baseline; justify-content: space-between; }
+.cm-head h4 { margin: 0; font-size: 1.12rem; }
+.cm-tags .tag { font-size: .75rem; border: 1px dashed var(--muted); border-radius: 999px; padding: .05rem .5rem; background: rgba(238,139,121,.22); }
+.cm-cols { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: .5rem; }
+.cm-col { padding: .5rem .7rem; border-radius: 4px; min-width: 0; }
+.cm-col p { margin: 0; }
+.cm-col p + p { margin-top: .15rem; }
+.cm-col.il { background: var(--cm-il); } .cm-col.ks { background: var(--cm-ks); }
+.cm-label { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.cm-foot { margin-top: .5rem; font-size: .93rem; }
+.cm-foot p { margin: .2rem 0; } .cm-foot details { margin: .3rem 0; } .cm-foot summary { cursor: pointer; min-height: 30px; }
+.cm-foot ul { margin: .3rem 0 .3rem 1.1rem; padding: 0; }
+.cmap[data-view="illyria"] .cm-cols, .cmap[data-view="keys"] .cm-cols { grid-template-columns: 1fr; }
+.cmap[data-view="illyria"] .ks, .cmap[data-view="keys"] .il { display: none; }
+.cm-legend { margin-top: 1.4rem; font-size: .9rem; }
+.cm-view button:focus-visible, .cm-nav a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+@media (max-width: 700px) {
+  .cm-cols { grid-template-columns: 1fr; }
+  .cm-bar { top: calc(env(safe-area-inset-top, 0px) + 3.4rem); }
+  .cm-view { width: 100%; } .cm-view button { flex: 1; padding: .4rem .3rem; font-size: .85rem; }
+  .cm-nav { gap: .8rem; font-size: .9rem; }
+}
