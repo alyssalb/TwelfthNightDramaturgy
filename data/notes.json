@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-10-19",
+    "title": "How to add a note (delete this example)",
+    "body": [
+      "Each note is one block in this file. I copy a whole block from the opening brace to the closing brace, paste it above this one, then change the date, title, body and tags.",
+      "The date goes year-month-day. The body is a list of paragraphs, each in quotation marks and separated by a comma. I can add a link like [this](https://www.folger.edu) or *italics* inside a paragraph."
+    ],
+    "tags": ["How to"]
+  }
+]
