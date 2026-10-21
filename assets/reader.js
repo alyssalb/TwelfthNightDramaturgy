@@ -9,7 +9,7 @@
 
 (function () {
   var out = document.getElementById('reader');
-  var SCRIPT = null, GLOSS = null, NOTES = [], TYPES = { cut: 'Cut', adapt: 'Adaptation', stage: 'Staging', dram: 'Dramaturgy' }, rules = [];
+  var firstScene = null, seenInScene = {}, SCRIPT = null, GLOSS = null, NOTES = [], TYPES = { cut: 'Cut', adapt: 'Adaptation', stage: 'Staging', dram: 'Dramaturgy' }, rules = [];
 
   function store(key, val) { try { if (val === undefined) return localStorage.getItem(key); localStorage.setItem(key, val); } catch (e) { return null; } }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -38,6 +38,18 @@
       if (g.noHighlight) return;
       var src = g.match || '(?<![A-Za-z])(' + g.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+') + ')(?![A-Za-z])';
       try { rules.push({ i: i, re: new RegExp(src, 'gi') }); } catch (e) { /* bad pattern in glossary.json: skip it */ }
+    });
+  }
+
+  // A glossary word is highlighted only in the first scene where it appears, and only its first instance there.
+  // An entry with "repeat": true in glossary.json is highlighted once in every scene instead.
+  function findFirstScenes() {
+    firstScene = {};
+    SCRIPT.forEach(function (sc) {
+      sc.entries.forEach(function (e) {
+        if (e.k !== 'sp') return;
+        findSpans(e.lines).spans.forEach(function (sp) { if (firstScene[sp.gi] == null) firstScene[sp.gi] = sc.id; });
+      });
     });
   }
 
@@ -93,6 +105,8 @@
     function setHl(v) { tog.setAttribute('aria-pressed', v); tog.textContent = 'Glossary highlights: ' + (v ? 'on' : 'off'); body.classList.toggle('hl-off', !v); closeCard(); store('tn-hl', v ? 'on' : 'off'); }
     tog.addEventListener('click', function () { setHl(tog.getAttribute('aria-pressed') !== 'true'); });
 
+    if (!firstScene) findFirstScenes();
+    seenInScene = {};
     s.entries.forEach(function (e) { body.appendChild(drawEntry(e, s)); });
     var sn = sceneNotes.filter(function (n) { return n.line == null; });
     if (sn.length) {
@@ -243,14 +257,19 @@
     // Prose speeches are reflowed into one paragraph so they read well on a phone.
     // Verse and songs keep one line per line. Line numbers always follow the cut file.
     var lines = isProse(e.lines)
-      ? [{ t: e.lines.map(function (l) { return l.t.trim(); }).join(' '), n: e.lines[0].n, n2: e.lines[e.lines.length - 1].n, prose: true }]
+      ? [(function () {
+          // marks = where each source line starts inside the joined paragraph, so every line number can show
+          var acc = 0, marks = [];
+          e.lines.forEach(function (l) { marks.push({ at: acc, n: l.n }); acc += l.t.trim().length + 1; });
+          return { t: e.lines.map(function (l) { return l.t.trim(); }).join(' '), n: e.lines[0].n, n2: e.lines[e.lines.length - 1].n, prose: true, marks: marks };
+        })()]
       : e.lines;
     var found = findSpans(lines);
     var depth = 0;
     lines.forEach(function (l, k) {
       var p = el('p', 'l' + (l.prose ? ' prose' : '') + (/^\s/.test(l.t) ? ' songline' : ''));
       p.setAttribute('data-n', l.n); p.setAttribute('data-n2', l.n2 || l.n); p.setAttribute('data-scene', scene.id);
-      if (!l.prose && l.n % 5 === 0) p.appendChild(el('span', 'num', String(l.n)));
+      if (!l.prose) p.appendChild(el('span', 'num', String(l.n)));  // every verse line gets a number
       var lo = found.offs[k], hi = lo + l.t.length, pos = 0;
       var pieces = [];
       found.spans.forEach(function (sp2) {
@@ -260,11 +279,29 @@
         pieces.push({ t: l.t.slice(a, b), gi: sp2.gi }); pos = b;
       });
       if (pos < l.t.length) pieces.push({ t: l.t.slice(pos) });
+      // Prose: split plain pieces at each source-line start and put a small inline number there.
+      var marks = l.marks || [], mi = 0, at = 0;
+      function putMarks(upTo) {
+        while (mi < marks.length && marks[mi].at <= upTo) {
+          var m = el('span', 'num inl', String(marks[mi].n)); m.setAttribute('aria-hidden', 'true'); p.appendChild(m); mi++;
+        }
+      }
       pieces.forEach(function (pc) {
-        if (pc.gi != null) {
+        putMarks(at);
+        if (pc.gi != null && !seenInScene[pc.gi] && (GLOSS[pc.gi].repeat || firstScene[pc.gi] === scene.id)) {
+          seenInScene[pc.gi] = true;
           var btn = el('button', 'g', pc.t); btn.type = 'button'; btn.setAttribute('data-gi', pc.gi); btn.setAttribute('aria-expanded', 'false');
-          p.appendChild(btn);
-        } else depth = appendWithBrackets(p, pc.t, depth);
+          p.appendChild(btn); at += pc.t.length;
+        } else {
+          // cut plain text at any mark that falls inside it
+          var txt = pc.t, base = at;
+          while (mi < marks.length && marks[mi].at > base && marks[mi].at < base + txt.length) {
+            var cutAt = marks[mi].at - base;
+            depth = appendWithBrackets(p, txt.slice(0, cutAt), depth);
+            txt = txt.slice(cutAt); base = marks[mi].at; putMarks(base);
+          }
+          depth = appendWithBrackets(p, txt, depth); at = base + txt.length;
+        }
       });
       sp.appendChild(p);
     });
@@ -315,6 +352,7 @@
       card.appendChild(el('b', '', g.term)); card.appendChild(document.createElement('br'));
       card.appendChild(el('span', '', g.gloss));
       if (g.editorsDiffer) card.appendChild(el('span', 'meta', 'Editors differ on this one.'));
+      if (g.url) { var src = el('a', '', 'Source'); src.href = g.url; src.target = '_blank'; src.rel = 'noopener'; var sw = el('span', 'meta'); sw.appendChild(src); card.appendChild(sw); }
       var n1 = line.getAttribute('data-n'), n2 = line.getAttribute('data-n2');
       card.appendChild(el('span', 'meta', sceneTitle(scene) + (n1 === n2 ? ', line ' + n1 : ', lines ' + n1 + ' to ' + n2)));
       line.parentNode.insertBefore(card, line.nextSibling);

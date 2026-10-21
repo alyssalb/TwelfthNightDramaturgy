@@ -23,13 +23,15 @@
     var out=[]; data.edges.forEach(function(e){ if(!e.label)return; if(e.a!==id&&e.b!==id)return;
       out.push(byId[e.a].keys.label.split(' / ')[0]+' '+e.label+' '+byId[e.b].keys.label.split(' / ')[0]+'.'); }); return out;}
 
+  // A blank line (\n\n) inside a note in conceptmap.json starts a new paragraph, so long notes stay readable.
+  function paras(col,text){ String(text||'').split(/\n\n/).forEach(function(t){ col.appendChild(el('p',null,t)); }); }
   function row(n){
     var r=el('article','cm-row'); r.id=n.id; r.dataset.type=n.type;
     var head=el('div','cm-head'); head.appendChild(el('h4',null,n.keys.label===n.illyria.label?n.keys.label:n.illyria.label+'  →  '+n.keys.label));
     var tags=el('span','cm-tags'); if(n.keys.basis==='draft'){var t=el('span','tag draft',BASIS_DRAFT); tags.appendChild(t);} head.appendChild(tags); r.appendChild(head);
     var cols=el('div','cm-cols');
-    var a=el('div','cm-col il'); a.appendChild(el('p','cm-label','Illyria')); a.appendChild(el('p',null,n.illyria.note));
-    var b=el('div','cm-col ks'); b.appendChild(el('p','cm-label','Our Key West')); b.appendChild(el('p',null,n.keys.note));
+    var a=el('div','cm-col il'); a.appendChild(el('p','cm-label','Illyria')); paras(a,n.illyria.note);
+    var b=el('div','cm-col ks'); b.appendChild(el('p','cm-label','Our Key West')); paras(b,n.keys.note);
     cols.appendChild(a); cols.appendChild(b); r.appendChild(cols);
     var foot=el('div','cm-foot');
     if(n.type==='character'){var rel=relations(n.id); if(rel.length){var p=el('p','cm-rel'); p.appendChild(el('strong',null,'Relationships: ')); p.appendChild(document.createTextNode(rel.join(' '))); foot.appendChild(p);}}

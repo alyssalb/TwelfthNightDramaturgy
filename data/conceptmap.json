@@ -10,7 +10,7 @@
    },
    "keys": {
     "label": "Viola / Cesario",
-    "note": "The disguise starts as protection and turns into experimentation and euphoria. In our interpretation she is some form of nonbinary, and her gender journey is central. Where she comes from is still open.",
+    "note": "The disguise starts as protection and turns into experimentation and euphoria. In our interpretation she is some form of nonbinary, and her gender journey is central.",
     "basis": "notes"
    },
    "context": [
@@ -63,7 +63,7 @@
    },
    "keys": {
     "label": "Antonio",
-    "note": "Stays Antonio. Possibly part of a throuple with Olivia and Sebastian. DRAFT: a working-waterfront figure, which fits the maritime economy (fishing, turtling, sponging, wrecking) that built the Keys.",
+    "note": "Loves Sebastian. Maybe a maritime worker or shipman of some sort.",
     "basis": "stated"
    },
    "context": [
@@ -89,7 +89,7 @@
    },
    "keys": {
     "label": "Orsino",
-    "note": "New-money transplant who lives in Bahama Village and runs a business; he saw opportunity in the tourism trade. Orsino and Viola read as queer.",
+    "note": "New-money transplant who runs a business, trying to make money off the promise of tourism in the Keys. Orsino is, as in the original, taken by Cesario from the start, and should be delighted that they are still around after the business with Olivia at the end is sorted - he is perhaps more upset that Cesario has betrayed him than he is about losing Olivia, which is telling regarding the truth of his affections...",
     "basis": "notes"
    },
    "context": [
@@ -111,11 +111,11 @@
    "type": "character",
    "illyria": {
     "label": "Olivia",
-    "note": "A countess mourning her brother for seven years, which is exaggerated mourning. She unveils for Cesario, falls in love, and marries Sebastian by mistake."
+    "note": "A countess mourning her brother for seven years (the drama). She opens up to Cesario, falls in love, and marries Sebastian by mistake."
    },
    "keys": {
     "label": "Olivia",
-    "note": "Old money, local, from a long-established conch family. A business owner. Possibly part of a throuple with Sebastian and Antonio.",
+    "note": "Old money, local, from a long-established conch family. Possibly part of a throuple with Sebastian and Antonio.",
     "basis": "notes"
    },
    "context": [
@@ -147,7 +147,7 @@
    },
    "keys": {
     "label": "Malvolio",
-    "note": "Ex or current military: a symbol of governmental authority over Key West. Getting rid of him frees everyone to be what they are? Maps onto the Puritan reading. The mocking plot must not mock self-expression.",
+    "note": "Perhaps ex or current military, or somehow tied to the authority of the US military base there. A symbol of undesired authority in a time and place of misrule. Getting rid of him perhaps gives further freedom to everyone else to be themselves more fully, which maps onto the original text's Puritan reading of him. Cannot stress enough that we aren't mocking his choice to self-express, but are rather mocking his performance for the sake of social climbing and his very annoying personality.",
     "basis": "notes"
    },
    "context": [
@@ -187,7 +187,7 @@
    },
    "keys": {
     "label": "Maria",
-    "note": "A local with a history with Olivia's house and family.",
+    "note": "A local with a history with Olivia's house and family. Pretty mischievous and excited to be let loose.",
     "basis": "notes"
    },
    "context": [
@@ -214,12 +214,12 @@
    "type": "character",
    "illyria": {
     "label": "Feste",
-    "note": "Olivia's allowed fool. He sings, trades words with everyone, and plays Sir Topas to torment Malvolio."
+    "note": "Olivia's fool, who is permitted to say what he will. He sings, trades words and witticisms with everyone, and plays Sir Topas to help in the plot to put Malvolio in his place."
    },
    "keys": {
     "label": "Feste",
-    "note": "DRAFT: an entertainer who moves between the households and the bars, and the only person on the island who can say what he likes to anyone.",
-    "basis": "draft"
+    "note": "An entertainer who moves between rich households, festival locations, and bars in the area. He's the only person on the island that can and does say what he likes when he wants to, and he's so clever and lovable that no one ever truly minds.",
+    "basis": "stated"
    },
    "context": [
     {
@@ -246,7 +246,7 @@
    "type": "character",
    "illyria": {
     "label": "Sir Toby Belch",
-    "note": "Olivia's uncle, a drinker who runs the nightly revels, keeps Sir Andrew around as a suitor and a source of money, and enjoys the plot against Malvolio."
+    "note": "Olivia's uncle, a drinker who runs the nightly revels (the Lord of Misrule?), keeps Sir Andrew around as a suitor and a source of money, and enjoys the plot against Malvolio."
    },
    "keys": {
     "label": "Sir Toby",
@@ -279,7 +279,7 @@
    },
    "keys": {
     "label": "Sir Andrew",
-    "note": "A big tourist, here because Toby drew him in.",
+    "note": "A big dumb excited tourist, here because his old friend Toby drew him in with empty promises. I don't think he ever really realizes how much he's been manipulated.",
     "basis": "notes"
    },
    "context": [
@@ -303,12 +303,12 @@
    "type": "character",
    "illyria": {
     "label": "Fabian",
-    "note": "A member of Olivia's household who joins the plot against Malvolio."
+    "note": "A member of Olivia's household who, perhaps in boredom or spite or some combination, joins the plot against Malvolio."
    },
    "keys": {
     "label": "Fabian",
-    "note": "NOT YET MAPPED. A member of Olivia's household who joins the plot. Your call on who he is in the Keys.",
-    "basis": "draft"
+    "note": "An employee of Olivia. Still doesn't like Malvolio.",
+    "basis": "stated"
    },
    "scenes": [
     "a2s5",
@@ -326,7 +326,7 @@
    },
    "keys": {
     "label": "The shipwreck",
-    "note": "The shipwreck is central. Wrecks were common in the choppy waters around the Keys. DRAFT: how and from where Viola and Sebastian arrive is still open.",
+    "note": "Shipwrecks are common in the Keys, and the early economy of the region was built on scavenging and profiting from wrecked materials and goods.",
     "basis": "stated"
    },
    "context": [
@@ -341,34 +341,16 @@
    ]
   },
   {
-   "id": "a-disguise",
-   "type": "action",
-   "illyria": {
-    "label": "Viola becomes Cesario",
-    "note": "Viola decides to serve Orsino disguised as a eunuch (1.2, line 52)."
-   },
-   "keys": {
-    "label": "Viola takes on a new name and presentation",
-    "note": "Disguise as an assumption of what will protect her, turning into experimentation and euphoria. Her gender journey is central.",
-    "basis": "notes"
-   },
-   "page": "queer-themes.html",
-   "scenes": [
-    "a1s2",
-    "a1s4"
-   ]
-  },
-  {
    "id": "a-woo",
    "type": "action",
    "illyria": {
-    "label": "Cesario sent to woo Olivia",
-    "note": "Orsino trusts Cesario with his love and sends him to Olivia. Viola says aside, \"Whoe'er I woo, myself would be his wife\" (1.4, line 43)."
+    "label": "Cesario is sent to woo Olivia",
+    "note": "Orsino takes a quick liking to Cesario and, trusting him and his youth, sends him to continue his quest to obtain Olivia's hand. Viola would like to work for Olivia at first, and later just wants to marry Orsino, and is stuck between them instead."
    },
    "keys": {
-    "label": "The messenger carries the message",
-    "note": "DRAFT: Orsino, new money, sends his newest confidant to Olivia, old money. Class gap and queer desire in the same errand.",
-    "basis": "draft"
+    "label": "Cesario is sent to woo Olivia",
+    "note": "The new-money businessman Orsino sends his latest confidant (cough, employee, cough) to Olivia (who is old money and doesn't have time or energy to deal with Orsino's foolishness), who is frankly sick of hearing about Orsino's empty \"love\" for her. This triangle is at the heart of the play's themes of both class and queer desire.",
+    "basis": "stated"
    },
    "page": "class-themes.html",
    "scenes": [
@@ -381,11 +363,11 @@
    "type": "action",
    "illyria": {
     "label": "Olivia's seven-year mourning",
-    "note": "Olivia veils herself and closes her house to suitors. Valentine reports it to Orsino (1.1, line 24)."
+    "note": "Olivia veils herself and closes her house to suitors."
    },
    "keys": {
-    "label": "Olivia shuts herself away",
-    "note": "Olivia's family is long-established local. DRAFT: how a locally rooted house closes itself off from the tourist-facing island is still open.",
+    "label": "Olivia's seven-year mourning",
+    "note": "Olivia's family has been in Key West, and their reputation and status are established and known. A local big house closes itself off from the tourist-facing parts of the island, at least in part.",
     "basis": "stated"
    },
    "context": [
@@ -401,33 +383,15 @@
    ]
   },
   {
-   "id": "a-ring",
-   "type": "action",
-   "illyria": {
-    "label": "The ring",
-    "note": "Olivia falls for Cesario and sends a ring after him (1.5, lines 266-267). Viola realizes: \"Disguise, I see thou art a wickedness\" (2.2, line 27)."
-   },
-   "keys": {
-    "label": "The ring",
-    "note": "DRAFT: the same beat. Desire crosses gender and class in one gesture, and Viola sees what the disguise has done.",
-    "basis": "draft"
-   },
-   "page": "queer-themes.html",
-   "scenes": [
-    "a1s5",
-    "a2s2"
-   ]
-  },
-  {
    "id": "a-revel",
    "type": "action",
    "illyria": {
-    "label": "The night revel",
-    "note": "Toby, Andrew, and Feste carouse. Malvolio scolds them. Maria sets out to take revenge on him (2.3, line 105)."
+    "label": "Late Nights",
+    "note": "Toby, Andrew, and Feste carouse. Malvolio scolds them. Maria sets out to take revenge on him for being a killjoy and a narc (2.3, line 105)."
    },
    "keys": {
-    "label": "The late night",
-    "note": "Fantasy Fest is a conceptual touchpoint, not the setting. Misrule is the point: rules loosen, and the question is who gets to keep having fun.",
+    "label": "Late Nights",
+    "note": "Fantasy Fest is a conceptual touchpoint for this production, a time of revelry during which usual social rules and norms go unobserved and free joy and partying and fun take over. Misrule is the purpose of this play and of this setting, a loosening of the rules, and embrace of chaos, and a collapse of class based hierarchies. The big question here is, who gets to enjoy this period of misrule, and who gets to continue their fun in the Keys after \"order\" is restored at the end of the play? What is the class difference in those two groups?",
     "basis": "stated"
    },
    "context": [
@@ -445,12 +409,12 @@
    "id": "a-letter",
    "type": "action",
    "illyria": {
-    "label": "The forged letter",
+    "label": "The Letter",
     "note": "Maria forges Olivia's handwriting. Malvolio finds the letter and reads it as a promise of love and greatness (2.5, line 134)."
    },
    "keys": {
-    "label": "The forged letter",
-    "note": "The mocking plot must not mock self-expression. DRAFT: what the letter promises and what it targets in the Keys is still open.",
+    "label": "The Letter",
+    "note": "Since Malvolio is a stand-in for puritanism at the time, we need to be sure we dislike him throughout the show - any performance he puts on to be what he thinks Olivia wants should not feel earnest, should always feel like he's forcing a persona for manipulation reasons.",
     "basis": "stated"
    },
    "context": [
@@ -468,12 +432,12 @@
    "id": "a-stockings",
    "type": "action",
    "illyria": {
-    "label": "Yellow stockings and cross-garters",
-    "note": "Malvolio, following the letter, smiles and wears yellow stockings and cross-garters. Olivia is in mourning, and dislikes both the yellow and the crossed garters. He is treated as mad (3.4)."
+    "label": "Yellow stockings and cross-gartering",
+    "note": "Malvolio follows the letter and makes a fool of himself. Olivia grows ill of him. He is treated as though he were mad. Again, Malvolio is a stand-in for both lower class individuals who want to rise in power AND for the puritans, with whom the Catholic rulers at the time were in such conflict that the puritans eventually went off to \"find\" and \"claim\" America. Yikes!"
    },
    "keys": {
-    "label": "The humiliation",
-    "note": "The mocking plot must not mock self-expression, so the humiliation needs a different target. Open question: what is Malvolio actually ashamed of in the Keys?",
+    "label": "Yellow stockings and cross-gartering",
+    "note": "Malvolio, crucially, does not like what we put him in for Fantasy Fest. He is not a fan, this is not an act of self expression, and he is only doing it so that Olivia might like him more and give him a leg up. We should really dislike him for this. This conversation will likely evolve as we rehearse. :)",
     "basis": "stated"
    },
    "context": [
@@ -492,12 +456,12 @@
    "type": "action",
    "illyria": {
     "label": "The duel",
-    "note": "Toby and Fabian talk Andrew into challenging Cesario, then convince both that the other is a fierce fighter (3.2, 3.4). Antonio steps in and is arrested."
+    "note": "In order to keep their gravy train going (i.e. exploiting Andrew for his money), Toby and Fabian convince Andrew that he needs to challenge Cesario in order to \"keep\" Olivia's favour (which he in fact never had in the first place). They then convince both Andrew and Cesario that the other is a great fighter, presumably just for kicks.\n\nAntonio, out of loyalty and love for Sebastian, steps in to keep him from getting hurt and is subsequently arrested."
    },
    "keys": {
     "label": "The duel",
-    "note": "DRAFT: a staged fight between a frightened tourist and a frightened newcomer, with a local passing as a fighter. Antonio's arrest as a working-waterfront man taken in by the authorities.",
-    "basis": "draft"
+    "note": "Andrew (a weak but sweet old friend of Toby's from their college years visiting the keys for a promised vacation and an implied opportunity to hook up with his friend's hot niece, who is around their age) and Cesario (a newcomer just trying to figure out their place in this very strange, charged town) are conned into fighting for Toby and Fabian's amusement. They are both not super into fighting for their own reasons, and their fight is going to be silly.\n\nAntonio is a working class man who sees his newcomer friend (Sebastian, mistakenly) is about to get hit by this stranger and steps into the \"bar fight\" to try to make sure no one gets seriously injured. Of course, being of a lower class status, the authorities assume Antonio instigated the fight and arrest him.",
+    "basis": "stated"
    },
    "page": "class-themes.html",
    "scenes": [
@@ -506,32 +470,15 @@
    ]
   },
   {
-   "id": "a-confine",
-   "type": "action",
-   "illyria": {
-    "label": "Malvolio in darkness",
-    "note": "Malvolio is locked in a dark room and tormented by Feste as Sir Topas (4.2)."
-   },
-   "keys": {
-    "label": "The confinement",
-    "note": "The authority figure is shut away. Getting rid of him frees them to be what they are? Must not mock self-expression.",
-    "basis": "notes"
-   },
-   "page": "about.html",
-   "scenes": [
-    "a4s2"
-   ]
-  },
-  {
    "id": "a-mixup",
    "type": "action",
    "illyria": {
-    "label": "Sebastian is mistaken for Cesario",
-    "note": "Olivia claims Sebastian, takes him into her house (4.1, line 59), and arranges the marriage (4.3, line 22)."
+    "label": "Sebastian and Cesario",
+    "note": "Olivia (almost immediately) convinces Sebastian (who does not know her at all) to marry her, and does not get suspicious when he says yes (even though Cesario has never returned her affections and sweetness in the slightest). They get married immediately. Wow."
    },
    "keys": {
-    "label": "The mistaken twin",
-    "note": "Possibly a throuple with Olivia, Sebastian, and Antonio.",
+    "label": "Sebastian and Cesario",
+    "note": "Honestly, think about all those couples that get married in Las Vegas on a whim because of the carnivalesque/festival politics of that space and time. This is probably something like that, especially for Sebastian. Sebastian and Antonio might also be in love a little, we'll discuss.",
     "basis": "stated"
    },
    "page": "queer-themes.html",
@@ -544,12 +491,12 @@
    "id": "a-ending",
    "type": "action",
    "illyria": {
-    "label": "The recognition and the ending",
-    "note": "The twins meet, Viola names herself, couples form, and Malvolio vows revenge. Orsino: \"Cesario, come, for so you shall be while you are a man\" (5.1, lines 359-362)."
+    "label": "The Ending",
+    "note": "The twins are reunited with some suspicion. Malvolio is laughed out of the room and vows revenge, which presumably he gets by...sailing to America and helping to colonize it? Jokes on the British monarchy, I guess... Viola returns to womanhood to secure a marriage with Orsino, who remains confused - his literally last lines while asking her to marry him are \"Cesario, come, for so you shall be while you are a man\"."
    },
    "keys": {
-    "label": "The ending",
-    "note": "The audience should not leave thinking queerness can be grown out of, or that you can find the right man. Viola is some form of nonbinary, so no detransitioning because you get a boyfriend. We are working on how to queer the ending.",
+    "label": "The Ending",
+    "note": "All of this, but Viola stays as they are, having learned about themselves. Orsino thinks this is a whole vibe. :) Sebastian and Olivia are married and are maybe about to start negotiations with Antonio about what their lives will look like? Our audiences walk away with the understanding that we can embrace ourselves if we are authentic to ourselves, and we will be rewarded (Viola/Cesario, Sebastian, Olivia, Orsino, Antonio, and even Maria and Toby) and that if we try to be someone we're not for gain, we will be punished via social ostracization (Malvolio).",
     "basis": "stated"
    },
    "context": [
@@ -571,12 +518,12 @@
    "id": "t-class",
    "type": "theme",
    "illyria": {
-    "label": "Class and social climbing",
-    "note": "Social standing in Elizabethan England was shifting from land ownership toward money, profession, family background, and recognition. Malvolio imagines himself Olivia's husband and ruler."
+    "label": "Class and Status",
+    "note": "Social standing in Elizabethan England could shift with land ownership, money, profession, family background, and official state recognition. Malvolio and Maria both make attempts to climb that ladder, so to speak, and only one is successful because she does it by being herself, while he tries to change himself."
    },
    "keys": {
-    "label": "Class and social climbing",
-    "note": "Two worlds in the Keys: the ultra-wealthy (transplants, second homeowners, vacationers) and locals struggling with a very high cost of living. Who is born into money, who comes into it, and who experiences neither?",
+    "label": "Class and Status",
+    "note": "There are sort of two disparate lives in Key West. The wealthy on the island like transplants, second homeowners, old families who are set up on the island, and vacationers and tourists enjoy the perception of the area as a place where rules don't always apply and festival politics reign. Local working-class people who staff all those tourist spaces tend to struggle, and there is a high cost of living and natural stress and barriers to living in the area.",
     "basis": "stated"
    },
    "context": [
@@ -592,80 +539,16 @@
    "page": "class-themes.html"
   },
   {
-   "id": "t-queer",
-   "type": "theme",
-   "illyria": {
-    "label": "Queer identity and desire",
-    "note": "Gender disguise provokes desire across gender lines. Boys played women, and the play can be read queerly in many places."
-   },
-   "keys": {
-    "label": "Queer identity and desire",
-    "note": "Key West is a long-time safe space for queer people. Our production takes a queer lens, not just added queer elements.",
-    "basis": "stated"
-   },
-   "context": [
-    {
-     "t": "The 1533 act condemned \"buggery\" as a crime punishable by death; it was hard to prosecute because it required a witness.",
-     "u": "queer-themes.html"
-    }
-   ],
-   "page": "queer-themes.html"
-  },
-  {
-   "id": "t-gender",
-   "type": "theme",
-   "illyria": {
-    "label": "Gender and disguise",
-    "note": "Viola's disguise lets her move through a world that treats gender expression as a safety question."
-   },
-   "keys": {
-    "label": "Gender and performance",
-    "note": "Gender as a performance (Judith Butler): what we are almost forced to put on. A modern AFAB person crossdressing for safety would not make sense now, so Viola needs a new reason.",
-    "basis": "stated"
-   },
-   "context": [
-    {
-     "t": "Women in men's clothes could be punished very harshly offstage at this time.",
-     "u": "about.html"
-    }
-   ],
-   "page": "queer-themes.html"
-  },
-  {
-   "id": "t-misrule",
-   "type": "theme",
-   "illyria": {
-    "label": "Misrule and permitted release",
-    "note": "The festive world of the Lord of Misrule: class rules collapse for a while, and then the usual rules return."
-   },
-   "keys": {
-    "label": "Misrule and permitted release",
-    "note": "Fantasy Fest is a conceptual touchpoint. It began in 1979 to draw tourists in the slow season, so who is the release for, and who pays for the fun?",
-    "basis": "stated"
-   },
-   "context": [
-    {
-     "t": "Bakhtin's carnivalesque: carnival is a liminal time and space where we can ignore the norms of real life. It is safe even for the governing class because you go back to who you are.",
-     "u": "about.html"
-    },
-    {
-     "t": "Authentic rebellion versus permitted release: are the characters in a temporary, permitted release, or a rebellion that outlasts the carnival?",
-     "u": "about.html"
-    }
-   ],
-   "page": "about.html"
-  },
-  {
    "id": "t-grief",
    "type": "theme",
    "illyria": {
     "label": "Grief and melancholy",
-    "note": "Renaissance melancholy was treated as an illness, an imbalance of bodily fluids. Orsino loves his own sorrow. Olivia's mourning is exaggerated."
+    "note": "In the Renaissance, melancholy is an illness, an imbalance of bodily fluids or \"humours\" that is honestly kind of hot in a tortured-artist-genius way. Orsino is performing melancholy, in love with his sorrow and how he thinks it makes him look to others. Olivia is exaggerating her mourning for similar reasons, though she also has a melancholy that is rooted in legitimate grief. Both of them, frankly, have too much time and money on their hands."
    },
    "keys": {
     "label": "Grief and melancholy",
-    "note": "DRAFT: grief and performed feeling in a place built on leisure. Still open.",
-    "basis": "draft"
+    "note": "In our modern setting, we understand melancholy as at most a mental health situation, and generally as a generic feeling of woe. We may rib our friends gently for being as dramatic about a girl they don't even know as Orsino is for Olivia. Orsino perhaps sees Olivia's status as a perk of dating/marrying her, and thinks they'd be the perfect \"power couple\". Olivia is annoyed by this, and keeps shooting him down but he just isn't getting the message.\n\nOlivia's grief takes on new context in the modern time as well, and her performance of grief (7 years of observance) reads as extremely dramatic now, in many ways, as does her exaggerated performance of mourning. This is a bigger conversation, but the way we see these characters and their sadness is certainly different in a modern context - but they still both have too much time and money for their own good.",
+    "basis": "stated"
    },
    "page": "about.html"
   },
@@ -674,12 +557,12 @@
    "type": "theme",
    "illyria": {
     "label": "Marriage and money",
-    "note": "Marriage in Elizabethan England was shaped by family expectations, social standing, and political and economic interests, and divorce was impossible."
+    "note": "Marriage in Elizabethan England in the upper classes was tied to family expectation, social standing, and political and economic interests. It is truly a contract, and in the true royalty there may have still been arranged marriages as early as the individual's birth. Olivia and Orsino, and for that matter the somewhat lower Viola and Sebastian, would have had more options, but the implications of marrying Orsino for Olivia would be a lessening of her freedom and a transfer of her money, and in the opposite direction, Orsino would improve his reputation and gain much from the advantageous coupling.\n\nMarrying \"up\", as a lower/working class person like Malvolio or Maria would have been unlikely, and if at all would be possible only for Maria and not for Malvolio due to gender dynamics. The way they both act in this play is meant to reflect the politics of the festival period of Twelfth Night, when disruption of the regular social order is encouraged and chaos reigns for the period of revelry."
    },
    "keys": {
     "label": "Marriage and money",
-    "note": "DRAFT: couplings that cross class and queer lines, and the question of who ends up with the house and the business. Possible throuple.",
-    "basis": "draft"
+    "note": "We have a much less restricted view of marriage now, and people semi-regularly marry across class lines and in a variety of gender configurations as numerous as the gender spectrum is. Marriage is also no longer the only recognized way to be legally and socially protected as a couple, which provides us a way into the Sebastian-Olivia-Antonio situation that is alternative to the original text's solution.\n\nDespite the potential for \"upward mobility\" through marriage, class-diverse marriages would still be a little strange for those in the upper class and may impact their social status, reputation, or financial position/business, so it is still advantageous for Orsino (new money) to marry Olivia (old money) and for Malvolio and Maria to desire a marriage above their class.",
+    "basis": "stated"
    },
    "context": [
     {
@@ -694,36 +577,16 @@
    "page": "class-themes.html"
   },
   {
-   "id": "p-bahama",
-   "type": "place",
-   "illyria": {
-    "label": "Orsino's court",
-    "note": "Orsino's household, where Cesario serves and where music and love-talk fill the air."
-   },
-   "keys": {
-    "label": "Bahama Village",
-    "note": "Key West's historically Bahamian and Caribbean neighborhood. Orsino lives here, and it is gentrifying. Goombay is its festival.",
-    "basis": "notes"
-   },
-   "context": [
-    {
-     "t": "The neighborhood is now 56% white, though about 13% of Key West is Black.",
-     "u": "key-west.html"
-    }
-   ],
-   "page": "key-west.html"
-  },
-  {
    "id": "p-oldtown",
    "type": "place",
    "illyria": {
-    "label": "Olivia's house",
-    "note": "A great household with a steward, a gentlewoman, a fool, and a drinking uncle."
+    "label": "Olivia's House vs Orsino's House",
+    "note": "Olivia and Orsino are both in established, great households with a steward, a set of servants, and space for their family to reside (looking at you, Toby)."
    },
    "keys": {
-    "label": "Old Town / the west side",
-    "note": "DRAFT: where long-established houses are. The priciest houses are on the west side of the island (Old Town, Casa Marina, The Meadows).",
-    "basis": "draft"
+    "label": "Olivia's House vs Orsino's House",
+    "note": "Olivia likely lives in a long-established house, probably in the Old Town area. Her family has lived there for a while, and are well situated and respected in the community. Orsino is a newer implant in the area, and is perhaps a businessman trying to exploit the gains of the tourism market in the Keys. His home is in a trendier side of town, a luxury market in the millions. Both of them live in the resort area of town, away from the relative poverty of the working class there, and are out of touch of the more difficult realities of living in the Keys full time.",
+    "basis": "stated"
    },
    "page": "key-west.html"
   },
@@ -731,13 +594,13 @@
    "id": "p-duval",
    "type": "place",
    "illyria": {
-    "label": "The revel nights",
-    "note": "Late nights in Olivia's house, with wine, songs, and a steward who objects."
+    "label": "Revelry",
+    "note": "Toby and company revel in the taverns of Illyria before bringing it back to Olivia's house to have wine and songs."
    },
    "keys": {
-    "label": "Duval Street",
-    "note": "DRAFT: the tourist-facing main street. The Fantasy Fest Street Fair is held here, and Goombay is just off it.",
-    "basis": "draft"
+    "label": "Revelry",
+    "note": "Revels may occur in the tourism areas, playing at the fancy resorts with tourists and acting like a temporary guest. Fantasy Fest street fairs are held in this district, and the more local Goombay festival is held just off the main drag, so this would be the place to be during their festival season.",
+    "basis": "stated"
    },
    "page": "key-west.html"
   },
@@ -745,12 +608,12 @@
    "id": "p-fantasy",
    "type": "place",
    "illyria": {
-    "label": "The Twelfth Night revels",
-    "note": "The Lord of Misrule's season, when class collapses for a short time."
+    "label": "Twelfth Night and Fantasy Fest",
+    "note": "The Lord of Misrule runs a season of Christmas revelry, in which class is collapsed for a short time to make sure everyone enjoys themselves thoroughly. The play is not really set in this season, on the Twelfth Night feast, so it acts most likely as a conceptual lens or touchpoint for Shakespeare and his audiences to grasp the chaos of the show and its characters."
    },
    "keys": {
-    "label": "Fantasy Fest",
-    "note": "The 10-day celebration. A conceptual touchpoint, not the setting.",
+    "label": "Twelfth Night and Fantasy Fest",
+    "note": "Similarly for our new setting, Fantasy Fest is not necessarily the direct setting of the play, but is a useful lens and conceptual touchpoint to help us catch the vibe of the show and why the characters act as they do.",
     "basis": "stated"
    },
    "context": [
@@ -760,34 +623,6 @@
     }
    ],
    "page": "key-west.html"
-  },
-  {
-   "id": "p-sunset",
-   "type": "place",
-   "illyria": {
-    "label": "Great houses",
-    "note": "The wealth that sits at the top of Illyria's hierarchy."
-   },
-   "keys": {
-    "label": "Sunset Key and the luxury end",
-    "note": "An offshoot of Key West known for pricey luxury homes. The median home sold is worth $6.6 million.",
-    "basis": "draft"
-   },
-   "page": "key-west.html"
-  },
-  {
-   "id": "p-stock",
-   "type": "place",
-   "illyria": {
-    "label": "The servants' side",
-    "note": "Where those who serve the great houses live."
-   },
-   "keys": {
-    "label": "Stock Island",
-    "note": "DRAFT: east of Key West, a working-class neighborhood where many workers live and commute from because housing is less expensive.",
-    "basis": "draft"
-   },
-   "page": "class-themes.html"
   },
   {
    "id": "p-water",
@@ -917,11 +752,6 @@
   },
   {
    "a": "viola",
-   "b": "a-disguise",
-   "label": ""
-  },
-  {
-   "a": "viola",
    "b": "a-woo",
    "label": ""
   },
@@ -943,16 +773,6 @@
   {
    "a": "orsino",
    "b": "a-mourn",
-   "label": ""
-  },
-  {
-   "a": "olivia",
-   "b": "a-ring",
-   "label": ""
-  },
-  {
-   "a": "viola",
-   "b": "a-ring",
    "label": ""
   },
   {
@@ -1036,26 +856,6 @@
    "label": ""
   },
   {
-   "a": "malvolio",
-   "b": "a-confine",
-   "label": ""
-  },
-  {
-   "a": "feste",
-   "b": "a-confine",
-   "label": ""
-  },
-  {
-   "a": "maria",
-   "b": "a-confine",
-   "label": ""
-  },
-  {
-   "a": "toby",
-   "b": "a-confine",
-   "label": ""
-  },
-  {
    "a": "sebastian",
    "b": "a-mixup",
    "label": ""
@@ -1103,16 +903,6 @@
   {
    "a": "antonio",
    "b": "a-ending",
-   "label": ""
-  },
-  {
-   "a": "a-disguise",
-   "b": "t-gender",
-   "label": ""
-  },
-  {
-   "a": "a-disguise",
-   "b": "t-queer",
    "label": ""
   },
   {
@@ -1121,28 +911,8 @@
    "label": ""
   },
   {
-   "a": "a-woo",
-   "b": "t-queer",
-   "label": ""
-  },
-  {
    "a": "a-mourn",
    "b": "t-grief",
-   "label": ""
-  },
-  {
-   "a": "a-ring",
-   "b": "t-queer",
-   "label": ""
-  },
-  {
-   "a": "a-ring",
-   "b": "t-gender",
-   "label": ""
-  },
-  {
-   "a": "a-revel",
-   "b": "t-misrule",
    "label": ""
   },
   {
@@ -1161,33 +931,13 @@
    "label": ""
   },
   {
-   "a": "a-stockings",
-   "b": "t-gender",
-   "label": ""
-  },
-  {
    "a": "a-duel",
    "b": "t-class",
    "label": ""
   },
   {
-   "a": "a-confine",
-   "b": "t-misrule",
-   "label": ""
-  },
-  {
-   "a": "a-confine",
-   "b": "t-class",
-   "label": ""
-  },
-  {
    "a": "a-mixup",
    "b": "t-marriage",
-   "label": ""
-  },
-  {
-   "a": "a-mixup",
-   "b": "t-queer",
    "label": ""
   },
   {
@@ -1197,27 +947,7 @@
   },
   {
    "a": "a-ending",
-   "b": "t-queer",
-   "label": ""
-  },
-  {
-   "a": "a-ending",
-   "b": "t-misrule",
-   "label": ""
-  },
-  {
-   "a": "a-ending",
    "b": "t-class",
-   "label": ""
-  },
-  {
-   "a": "viola",
-   "b": "t-gender",
-   "label": ""
-  },
-  {
-   "a": "viola",
-   "b": "t-queer",
    "label": ""
   },
   {
@@ -1226,11 +956,6 @@
    "label": ""
   },
   {
-   "a": "antonio",
-   "b": "t-queer",
-   "label": ""
-  },
-  {
    "a": "orsino",
    "b": "t-class",
    "label": ""
@@ -1238,11 +963,6 @@
   {
    "a": "orsino",
    "b": "t-grief",
-   "label": ""
-  },
-  {
-   "a": "orsino",
-   "b": "t-queer",
    "label": ""
   },
   {
@@ -1281,16 +1001,6 @@
    "label": ""
   },
   {
-   "a": "feste",
-   "b": "t-misrule",
-   "label": ""
-  },
-  {
-   "a": "toby",
-   "b": "t-misrule",
-   "label": ""
-  },
-  {
    "a": "toby",
    "b": "t-class",
    "label": ""
@@ -1303,21 +1013,6 @@
   {
    "a": "andrew",
    "b": "t-marriage",
-   "label": ""
-  },
-  {
-   "a": "p-bahama",
-   "b": "orsino",
-   "label": ""
-  },
-  {
-   "a": "p-bahama",
-   "b": "t-class",
-   "label": ""
-  },
-  {
-   "a": "p-bahama",
-   "b": "t-queer",
    "label": ""
   },
   {
@@ -1362,37 +1057,7 @@
   },
   {
    "a": "p-fantasy",
-   "b": "t-misrule",
-   "label": ""
-  },
-  {
-   "a": "p-fantasy",
    "b": "toby",
-   "label": ""
-  },
-  {
-   "a": "p-fantasy",
-   "b": "t-queer",
-   "label": ""
-  },
-  {
-   "a": "p-sunset",
-   "b": "t-class",
-   "label": ""
-  },
-  {
-   "a": "p-sunset",
-   "b": "orsino",
-   "label": ""
-  },
-  {
-   "a": "p-stock",
-   "b": "t-class",
-   "label": ""
-  },
-  {
-   "a": "p-stock",
-   "b": "maria",
    "label": ""
   },
   {
@@ -1413,11 +1078,6 @@
   {
    "a": "p-water",
    "b": "antonio",
-   "label": ""
-  },
-  {
-   "a": "p-bahama",
-   "b": "p-fantasy",
    "label": ""
   }
  ]

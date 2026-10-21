@@ -28,7 +28,7 @@
     function draw() {
       box.innerHTML = '';
       var shown = notes.filter(function (n) { return !active || (n.tags || []).indexOf(active) > -1; });
-      if (!shown.length) box.appendChild(el('p', 'muted', 'No notes with that tag yet.'));
+      if (!shown.length) box.appendChild(el('p', 'muted', notes.length ? 'No notes with that tag yet.' : 'Nothing here yet. Notes from rehearsal will show up here.'));
       shown.forEach(function (n) {
         var a = el('article', 'entry');
         var t = el('time', '', nice(n.date)); t.setAttribute('datetime', n.date); a.appendChild(t);

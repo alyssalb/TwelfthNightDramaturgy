@@ -1,7 +1,7 @@
 [
  {
   "term": "abjured",
-  "gloss": "renounced, sworn off"
+  "gloss": "formally, publicly renounce or swear off"
  },
  {
   "term": "Accost",
@@ -56,8 +56,8 @@
   "gloss": "old, quaint"
  },
  {
-  "term": "arbitrament",
-  "gloss": "settlement, here by combat"
+  "term": "mortal arbitrament",
+  "gloss": "agreement to trial by combat (a fight to the death)."
  },
  {
   "term": "assail",
@@ -81,7 +81,7 @@
  },
  {
   "term": "barful",
-  "gloss": "full of obstacles"
+  "gloss": "full of obstacles; popularized by Shakespeare"
  },
  {
   "term": "beagle",
@@ -93,7 +93,8 @@
  },
  {
   "term": "Before me",
-  "gloss": "on my soul (mild oath)"
+  "gloss": "on my soul (mild oath)",
+  "match": "(?<!Away\\s)(?<![A-Za-z])(Before\\s+me)(?![A-Za-z])"
  },
  {
   "term": "belie",
@@ -109,7 +110,7 @@
  },
  {
   "term": "betake",
-  "gloss": "resort to, apply"
+  "gloss": "to go, or to resort to, or to apply."
  },
  {
   "term": "bibble-babble",
@@ -121,15 +122,15 @@
  },
  {
   "term": "blows him",
-  "gloss": "puffs him up"
+  "gloss": "puffs him up (with self-importance/ego)"
  },
  {
   "term": "board",
-  "gloss": "approach, address"
+  "gloss": "the approach, address, make advances on someone; a nautical/ship image, as in \"to board a ship\", to boldly approach another person"
  },
  {
   "term": "Bonos dies",
-  "gloss": "mock Latin for \"good day\""
+  "gloss": "Feste doesn't know Latin (where a real priest would know actual Latin). That's the joke."
  },
  {
   "term": "botched",
@@ -137,11 +138,11 @@
  },
  {
   "term": "brabble",
-  "gloss": "brawl"
+  "gloss": "a noisy brawl or argument."
  },
  {
   "term": "branched velvet",
-  "gloss": "velvet embroidered with branches"
+  "gloss": "velvet embroidered with floral/leaf motifs; expensive and elaborate, a high-status affordance only"
  },
  {
   "term": "breach of the sea",
@@ -149,7 +150,11 @@
  },
  {
   "term": "brimstone",
-  "gloss": "sulfur, associated with hell"
+  "gloss": "sulfur or hellfire, associated with hell"
+ },
+ {
+  "term": "brimstone in your liver",
+  "gloss": "sulfur or hellfire, associated with hell; the liver was an organ responsible for blood, passion, courage, intense emotion; an encouragement to get angry"
  },
  {
   "term": "brine",
@@ -161,15 +166,15 @@
  },
  {
   "term": "butt'ry bar",
-  "gloss": "ledge of the buttery (drink store) where drinks were handed out; a drinking joke"
+  "gloss": "the ledge/half-door of a buttery, a room in a large house where casks (\"butts\") of drinks were served; this is a drinking joke"
  },
  {
   "term": "By my troth",
-  "gloss": "by my faith (mild oath)"
+  "gloss": "by my faith/truth (a mild oath)"
  },
  {
   "term": "canary",
-  "gloss": "sweet wine from the Canary Islands"
+  "gloss": "sweet wine from the Canary Islands; similar to \"sack\""
  },
  {
   "term": "cantons",
@@ -181,12 +186,12 @@
  },
  {
   "term": "Capilet",
-  "gloss": "a horse's name, possibly a small horse",
+  "gloss": "the name of Andrew's horse; a name for a small horse, traditionally.",
   "editorsDiffer": true
  },
  {
   "term": "case",
-  "gloss": "skin; also disguise"
+  "gloss": "here, skin, frame, or covering."
  },
  {
   "term": "catch",
@@ -195,7 +200,7 @@
  },
  {
   "term": "catechize",
-  "gloss": "question by rote, as in a church catechism"
+  "gloss": "to instruct or examine through questions and answers systematically, often associated with Christian church and religious beliefs"
  },
  {
   "term": "caterwauling",
@@ -203,7 +208,7 @@
  },
  {
   "term": "champian",
-  "gloss": "open country"
+  "gloss": "open, flat country"
  },
  {
   "term": "chantry",
@@ -211,7 +216,7 @@
  },
  {
   "term": "check at",
-  "gloss": "veer from (a hawk leaving its prey for something else)"
+  "gloss": "to veer from the course, chequing alternative spelling"
  },
  {
   "term": "chide",
@@ -227,11 +232,11 @@
  },
  {
   "term": "clamorous",
-  "gloss": "loud, insistent"
+  "gloss": "loud, insistent; outcry, protest"
  },
  {
   "term": "clodpoll",
-  "gloss": "blockhead"
+  "gloss": "an idiot/blockhead; from clod (lump of dirt, or an oaf) and poll (old word for head), so dirt-filled head."
  },
  {
   "term": "cloistress",
@@ -239,7 +244,7 @@
  },
  {
   "term": "cloyment",
-  "gloss": "sickening fullness"
+  "gloss": "sickening fullness, gorging"
  },
  {
   "term": "codling",
@@ -267,7 +272,7 @@
  },
  {
   "term": "competent injury",
-  "gloss": "sufficient grievance"
+  "gloss": "sufficient, legally justifiable grievance."
  },
  {
   "term": "competitors",
@@ -295,7 +300,7 @@
  },
  {
   "term": "constellation",
-  "gloss": "one's character as set by the stars"
+  "gloss": "destiny, human agency, a path or quality of character \"written\" in the stars"
  },
  {
   "term": "conster",
@@ -307,11 +312,11 @@
  },
  {
   "term": "contemned",
-  "gloss": "scorned"
+  "gloss": "scorned, disdained"
  },
  {
   "term": "convents",
-  "gloss": "comes together, suits"
+  "gloss": "comes together, is convenient/suitable."
  },
  {
   "term": "Count / Duke",
@@ -324,7 +329,7 @@
  },
  {
   "term": "coxcomb",
-  "gloss": "head; also a fool's cap"
+  "gloss": "a vain fool, or, a jester's hat."
  },
  {
   "term": "coz",
@@ -332,7 +337,7 @@
  },
  {
   "term": "coziers",
-  "gloss": "cobblers"
+  "gloss": "cobblers (people who mend shoes); possibly also refers to a tailor; here, singing working class, crude songs fit not for gentlemen but for working class men instead"
  },
  {
   "term": "credit",
@@ -353,7 +358,7 @@
  },
  {
   "term": "curate",
-  "gloss": "junior priest"
+  "gloss": "priest or clergyman."
  },
  {
   "term": "curst",
@@ -418,7 +423,7 @@
  },
  {
   "term": "dissemble",
-  "gloss": "disguise"
+  "gloss": "disguise, conceal your true nature."
  },
  {
   "term": "distemper",
@@ -470,7 +475,7 @@
  },
  {
   "term": "ducats",
-  "gloss": "gold coins"
+  "gloss": "gold coins; no clear exchange rate, look at the number to determine how impressive that quantity of coins would be."
  },
  {
   "term": "dun-colored stock",
@@ -482,7 +487,7 @@
  },
  {
   "term": "Dutchman's beard",
-  "gloss": "likely a reference to Dutch Arctic voyages of the 1590s",
+  "gloss": "a state of cold, freezing, ignored; perhaps a reference to Willem Barentsz, a Dutch Arctic explorer whose crew was trapped and experienced extreme freezing in the late 1500s (these stories would have been circulating in London at the time of writing)",
   "editorsDiffer": true
  },
  {
@@ -495,24 +500,23 @@
  },
  {
   "term": "Egyptian thief",
-  "gloss": "likely Thyamis, a bandit chief who tried to kill the woman he loved",
-  "editorsDiffer": true
+  "gloss": "reference to Heliodorus' Ethiopica, a Greek romance; Thyamis (character) led a band of thieves, he captures and falls in love with a lady and then tries to kill her to prevent her from being taken; through this metaphor, Orsino is threatening violence out of jealousy."
  },
  {
   "term": "element",
-  "gloss": "sky; \"not of your element\" means not your sort"
+  "gloss": "forces of nature; sky; atmosphere; welkin"
  },
  {
   "term": "Elephant",
-  "gloss": "name of an inn"
+  "gloss": "the name of a local inn or tavern"
  },
  {
   "term": "Elysium",
-  "gloss": "classical paradise for the blessed dead"
+  "gloss": "eternal paradise of the ancient Greek afterlife"
  },
  {
   "term": "embassy",
-  "gloss": "message or mission"
+  "gloss": "message or mission; a diplomatic ambassador"
  },
  {
   "term": "encounter",
@@ -532,7 +536,7 @@
  },
  {
   "term": "estate",
-  "gloss": "social standing"
+  "gloss": "rank and circumstances; social standing"
  },
  {
   "term": "Et vous aussi",
@@ -560,7 +564,7 @@
  },
  {
   "term": "fadge",
-  "gloss": "turn out, work"
+  "gloss": "turn out, work out, fit"
  },
  {
   "term": "fancy",
@@ -576,7 +580,7 @@
  },
  {
   "term": "fell",
-  "gloss": "fierce, cruel",
+  "gloss": "cruel, fierce, savage, ruthless",
   "match": "(fell) and cruel"
  },
  {
@@ -597,11 +601,11 @@
  },
  {
   "term": "firago",
-  "gloss": "variant of \"virago,\" fierce woman"
+  "gloss": "mispronunciation of \"virago\", a bold, masculine woman; a double-layered joke about Cesario/Viola's gender expression, in our production especially."
  },
  {
   "term": "fire-new",
-  "gloss": "brand new"
+  "gloss": "brand new, original; from metal/coins that have been melted and freshly stamped"
  },
  {
   "term": "folly-fall'n",
@@ -617,11 +621,11 @@
  },
  {
   "term": "forswear",
-  "gloss": "give up, swear off"
+  "gloss": "give up, swear off; or, swear falsely, commit perjury"
  },
  {
   "term": "fourteen years' purchase",
-  "gloss": "an expensive price, roughly fourteen years of rent"
+  "gloss": "a reputation joke that refers to an expensive real estate purchase (land was usually valued and paid off for 12x the annual price of rent. So 14x the annual price means an expensive cost)."
  },
  {
   "term": "function",
@@ -637,7 +641,7 @@
  },
  {
   "term": "galleys",
-  "gloss": "warships rowed by oars"
+  "gloss": "long, low warships rowed by oars (sometimes secondary sails)"
  },
  {
   "term": "galliard",
@@ -665,11 +669,11 @@
  },
  {
   "term": "gossip of the air",
-  "gloss": "Echo, the gossip who repeats sound"
+  "gloss": "chatter/repeating voice, the poetic personification of an echo"
  },
  {
   "term": "grize",
-  "gloss": "step"
+  "gloss": "a single step, a rung on a staircase or hierarchy"
  },
  {
   "term": "grizzle",
@@ -677,7 +681,7 @@
  },
  {
   "term": "gull",
-  "gloss": "to trick; also a dupe"
+  "gloss": "to trick, deceive, commit fraud; as a noun, a fool or someone who is easily tricked"
  },
  {
   "term": "habits",
@@ -701,11 +705,11 @@
  },
  {
   "term": "Hie thee",
-  "gloss": "hurry"
+  "gloss": "hurry yourself; go quickly"
  },
  {
   "term": "hull",
-  "gloss": "drift with sails furled"
+  "gloss": "to float or drift on water with sails furled (taken down)"
  },
  {
   "term": "humor of state",
@@ -733,11 +737,11 @@
  },
  {
   "term": "in grain",
-  "gloss": "dyed fast, permanent; a color that won't wash out"
+  "gloss": "dyed permanently; a color that won't wash out; inherent/natural to one's character"
  },
  {
   "term": "incardinate",
-  "gloss": "Andrew's slip for \"incarnate\""
+  "gloss": "Andrew is trying to say \"incarnate\" (devil in the flesh) and messes up."
  },
  {
   "term": "indifferent",
@@ -761,7 +765,7 @@
  },
  {
   "term": "interlude",
-  "gloss": "short play"
+  "gloss": "comedic, short musical break in the main plot."
  },
  {
   "term": "inventoried",
@@ -789,7 +793,7 @@
  },
  {
   "term": "kickshawses",
-  "gloss": "trifles, fancy things (from French quelque chose)"
+  "gloss": "trifles, fancy things, delicacies, worthless fineries; from the French \"quelque chose\" or \"something\""
  },
  {
   "term": "kinsman",
@@ -801,7 +805,7 @@
  },
  {
   "term": "lath",
-  "gloss": "thin strip of wood"
+  "gloss": "a thin strip of wood, approximating a toy/mock dagger or sword."
  },
  {
   "term": "leasing",
@@ -813,11 +817,11 @@
  },
  {
   "term": "Lethe",
-  "gloss": "river of forgetfulness"
+  "gloss": "in Greek mythology, the river in the underworld that makes the dead forget."
  },
  {
   "term": "limed",
-  "gloss": "caught, as a bird with birdlime"
+  "gloss": "trapped; from the practice of birdlime, a sticky substance hunters would smear onto trees to catch birds."
  },
  {
   "term": "liver",
@@ -825,7 +829,7 @@
  },
  {
   "term": "Lucrece",
-  "gloss": "Roman woman who killed herself after being raped"
+  "gloss": "a Roman woman who, in the story, kills herself after being raped; at the time, a classic symbol of virtue and chastity in aristocracy; the Lucrece knife, then, is a suicidal knife."
  },
  {
   "term": "madonna",
@@ -837,7 +841,7 @@
  },
  {
   "term": "malapert",
-  "gloss": "saucy, impudent"
+  "gloss": "saucy, disrespectful."
  },
  {
   "term": "malignancy",
@@ -845,7 +849,7 @@
  },
  {
   "term": "manikin",
-  "gloss": "little man"
+  "gloss": "little man or puppet"
  },
  {
   "term": "marble-breasted",
@@ -861,15 +865,15 @@
  },
  {
   "term": "May morning",
-  "gloss": "May Day, festive"
+  "gloss": "for lighthearted amusement; allusion to May Day, a festive day of outdoor games and merrymaking."
  },
  {
   "term": "melancholy",
-  "gloss": "sadness; one of the four humors"
+  "gloss": "complex sorrow, gloom, darkness; one of the four humours, an excess of \"black bile\" which prompts this mental state, considered a fashionable disease that plagues artistic genius at the time."
  },
  {
   "term": "mellifluous",
-  "gloss": "sweetly flowing"
+  "gloss": "sweet sounding, smooth, as honey"
  },
  {
   "term": "mellow",
@@ -877,15 +881,15 @@
  },
  {
   "term": "Mercury",
-  "gloss": "Roman god of messengers and also of trickery"
+  "gloss": "Roman god of messengers, traveling, trickery, and commerce/finance"
  },
  {
   "term": "Messaline",
-  "gloss": "Sebastian's home; likely an invented place"
+  "gloss": "Viola and Sebastian's homeland; an invented place, potentially based on a location in Greece or in Italy"
  },
  {
   "term": "metal of India",
-  "gloss": "gold of the Indies; \"my treasure\""
+  "gloss": "pure gold; metal (mettle) as in one's character/temperament, India as in a place associated at the time with wealth and treasure. Perhaps affection akin to \"golden girl\", here."
  },
  {
   "term": "Methought",
@@ -937,8 +941,7 @@
  },
  {
   "term": "natural perspective",
-  "gloss": "optical illusion device; here, a trick of nature",
-  "editorsDiffer": true
+  "gloss": "an optical illusion made by nature, a trick of nature."
  },
  {
   "term": "nayword",
@@ -946,12 +949,12 @@
  },
  {
   "term": "new map",
-  "gloss": "likely the 1599 map with many lines for the Indies",
+  "gloss": "a joke on Malvolio's intense wrinkled artifice of a smile; Edward Wright's new map was published in 1599 and was one of the first English maps that showed more accurately the \"East Indies\" (we aren't sure precisely what this refers to), and the lines of the Mercator projection featured in this map were so crossed and messy which was new and trendy at the time.",
   "editorsDiffer": true
  },
  {
   "term": "nightingales answer daws",
-  "gloss": "proverb: the fine answering the foolish (daws are jackdaws)"
+  "gloss": "he is being sarcastic here. This means the nightingale (a noble bird, him in the metaphor) would not lower itself to answer a daw (noisy, foolish, Maria in the metaphor)."
  },
  {
   "term": "nonregardance",
@@ -963,7 +966,7 @@
  },
  {
   "term": "'Od's lifelings",
-  "gloss": "by God's little lives (mild oath)"
+  "gloss": "by God's little lives, or, as God lives; a minced oath, again (think in modern day, like, \"good God\" or \"good heavens\")."
  },
  {
   "term": "olive",
@@ -983,7 +986,7 @@
  },
  {
   "term": "overweening",
-  "gloss": "arrogant"
+  "gloss": "arrogant, overconfident"
  },
  {
   "term": "owe",
@@ -995,7 +998,7 @@
  },
  {
   "term": "Patience on a monument",
-  "gloss": "statue of Patience on a tomb"
+  "gloss": "like a statue of patience on a tomb, enduring calmness externally while one is actually in a silent state of pain or heartbreak"
  },
  {
   "term": "peascod",
@@ -1019,7 +1022,7 @@
  },
  {
   "term": "perdy",
-  "gloss": "by God (from French par Dieu)"
+  "gloss": "by God (French par Dieu), or indeed."
  },
  {
   "term": "peruse",
@@ -1031,19 +1034,19 @@
  },
  {
   "term": "pickle herring",
-  "gloss": "pickled fish, said to cause belching and thirst"
+  "gloss": "pickled fish; or, drunkenness (alcohol used to pickle, so being in a pickle may mean being \"pickled\" or saturated in drink)"
  },
  {
   "term": "pilchers",
-  "gloss": "pilchards, small fish"
+  "gloss": "a small, cheap saltwater fish (similar to a herring)"
  },
  {
   "term": "pined",
-  "gloss": "wasted away with longing"
+  "gloss": "wasted away with longing or with grief/sorrow"
  },
  {
   "term": "pipe",
-  "gloss": "voice"
+  "gloss": "a wind or musical instrument; a metaphor for the human voice or human manipulation"
  },
  {
   "term": "plight",
@@ -1067,19 +1070,19 @@
  },
  {
   "term": "practice",
-  "gloss": "plot, trick"
+  "gloss": "plot, trick, scheme"
  },
  {
   "term": "pregnant enemy",
-  "gloss": "resourceful devil"
+  "gloss": "pregnant as in \"resourceful, ready\" and enemy as in \"devil\" or \"satan\" at the time"
  },
  {
   "term": "prerogative",
-  "gloss": "privilege"
+  "gloss": "privilege/power of an exclusive group"
  },
  {
   "term": "presupposed",
-  "gloss": "imposed beforehand"
+  "gloss": "determined ahead of time."
  },
  {
   "term": "prevented",
@@ -1087,11 +1090,11 @@
  },
  {
   "term": "Primo, secundo, tertio",
-  "gloss": "dice game; \"the third pays for all\""
+  "gloss": "first, second, third; an attempt to get a third coin from Orsino, through word-play (third time's a charm...)."
  },
  {
   "term": "prithee",
-  "gloss": "I pray thee; please"
+  "gloss": "I pray thee; please (early modern grammar, like Shakespeare, popularizes contractions and clippings of phrases such as this)"
  },
  {
   "term": "profanation",
@@ -1102,12 +1105,12 @@
   "gloss": "treated as an object"
  },
  {
-  "term": "propriety",
-  "gloss": "one's true identity"
+  "term": "strangle thy propriety",
+  "gloss": "let go of your fear/restraint (mostly a result of social rules and norms) and show us your true identity."
  },
  {
   "term": "provident",
-  "gloss": "foresighted, careful"
+  "gloss": "prudent, careful, taking sensible precautions"
  },
  {
   "term": "puritan",
@@ -1131,11 +1134,11 @@
  },
  {
   "term": "recompense",
-  "gloss": "payment, reward"
+  "gloss": "payment, reward, making amends"
  },
  {
   "term": "relics",
-  "gloss": "surviving sights"
+  "gloss": "historic monuments or landmarks"
  },
  {
   "term": "relish",
@@ -1167,15 +1170,16 @@
  },
  {
   "term": "Roman hand",
-  "gloss": "italic handwriting"
+  "gloss": "neat, pretty handwriting; at the time, a clear, rounded style of writing (Italian or italic script). More elegant and feminine, as it was viewed at the time."
  },
  {
   "term": "round with",
-  "gloss": "blunt with"
+  "gloss": "be blunt with",
+  "match": "(?<!chamber\\s)(?<![A-Za-z])(round\\s+with)(?![A-Za-z])"
  },
  {
   "term": "rouse",
-  "gloss": "wake up"
+  "gloss": "wake up, stir to action"
  },
  {
   "term": "rubious",
@@ -1204,10 +1208,6 @@
  {
   "term": "sanctity",
   "gloss": "holiness"
- },
- {
-  "term": "Satan",
-  "gloss": "the devil"
  },
  {
   "term": "schedules",
@@ -1259,12 +1259,12 @@
  },
  {
   "term": "Sir Topas",
-  "gloss": "comic priest persona; the topaz was thought to cure madness",
+  "gloss": "a fictional priest; Sir Thopas in Chaucer's Canterbury Tales was a pompous knight, and the Topaz gemstone was thought to be able to cure madness (the opposite of what Feste does to Malvolio here).",
   "editorsDiffer": true
  },
  {
   "term": "sixpence",
-  "gloss": "small silver coin"
+  "gloss": "a small silver coin, worth about 6 pennies or half a shilling. A day's wage, and the price of entry for 6 groundlings at a Globe performance; this is a casual tip from Toby, a couple meals or drinks"
  },
  {
   "term": "skill-less",
@@ -1272,7 +1272,7 @@
  },
  {
   "term": "Slid",
-  "gloss": "by God's eyelid (oath)"
+  "gloss": "a minced oath, \"By God's eyelid\", to avoid blasphemy."
  },
  {
   "term": "slough",
@@ -1280,7 +1280,7 @@
  },
  {
   "term": "Sneck up",
-  "gloss": "go hang, shut up"
+  "gloss": "go hang, shut up, make yourself scarce"
  },
  {
   "term": "sot",
@@ -1288,11 +1288,11 @@
  },
  {
   "term": "spleen",
-  "gloss": "seat of laughter or anger"
+  "gloss": "mirth, laughter, mischief; the spleen produces black bile (much like the liver), sudden passions, intense moods, melancholy"
  },
  {
   "term": "squash",
-  "gloss": "unripe pea pod"
+  "gloss": "unripe pea pod; metaphor for youth"
  },
  {
   "term": "standing water",
@@ -1300,7 +1300,7 @@
  },
  {
   "term": "stave",
-  "gloss": "staff, cudgel"
+  "gloss": "staff (weapon)."
  },
  {
   "term": "stone-bow",
@@ -1316,7 +1316,7 @@
  },
  {
   "term": "Strachy",
-  "gloss": "puzzling reference; editors cannot identify it",
+  "gloss": "we are still unsure what this refers to, may be some obscure piece of gossip or a fictional invention; generally consider it to mean he's grasping for an example of someone of high birth marrying a low ranking steward, but fumbling the example and pulling a false and silly example that doesn't make sense.",
   "editorsDiffer": true
  },
  {
@@ -1333,7 +1333,7 @@
  },
  {
   "term": "suit",
-  "gloss": "courtship, or a petition"
+  "gloss": "formal request, petition, or courtship"
  },
  {
   "term": "supportance",
@@ -1369,7 +1369,7 @@
  },
  {
   "term": "tall",
-  "gloss": "brave, fine (with a joke on Andrew's height)",
+  "gloss": "brave, fine (perhaps with a joke on Andrew's height)",
   "match": "(tall) a man"
  },
  {
@@ -1378,7 +1378,7 @@
  },
  {
   "term": "taxation of homage",
-  "gloss": "demand for tribute"
+  "gloss": "demand for tribute, loyalty, fealty"
  },
  {
   "term": "testril",
@@ -1389,9 +1389,9 @@
   "gloss": "drunk; a joke on legal \"degrees\" or stages of drunkenness"
  },
  {
-  "term": "thou-est",
-  "gloss": "address with familiar \"thou\" as an insult",
-  "match": "(\"thou\"-est)"
+  "term": "thou-est him some thrice",
+  "gloss": "at the time, \"thou\" is an informal word used to address someone either familiar or below you hierarchically, where \"you\" was the accepted formal and polite version. So by thou-ing him three times, it would be made clear that he has a problem and is being intentionally rude or disrespectful.",
+  "match": "(\"thou\"-est\\s+him\\s+some\\s+thrice)"
  },
  {
   "term": "thought is free",
@@ -1428,16 +1428,11 @@
  },
  {
   "term": "trappings",
-  "gloss": "ornaments, fittings; attendants"
+  "gloss": "the attendants/servants in the house are described here as ornaments of Olivia's household, to show her status."
  },
  {
-  "term": "trip",
-  "gloss": "trick, wrestling move",
-  "match": "own (trip)"
- },
- {
-  "term": "trout",
-  "gloss": "caught by \"tickling\" it with hands; poacher's trick"
+  "term": "trout that must be caught with tickling",
+  "gloss": "manipulating a foolish person through vanity/flattery; trout tickling is an old-fashioned method of catching fish with hands, gently stroking the fish to make it calm so the fisher can simply scoop it from the water."
  },
  {
   "term": "turned away",
@@ -1465,16 +1460,15 @@
  },
  {
   "term": "undertaker",
-  "gloss": "one who takes on another's quarrel"
+  "gloss": "someone who takes on another's fight on their behalf."
  },
  {
   "term": "ungird",
-  "gloss": "loosen, drop (Feste jokes)"
+  "gloss": "take off, loosen; Feste is asking Sebastian to drop his weird behavior and just act as he normally does."
  },
  {
-  "term": "unhatched",
-  "gloss": "unused or unengraved; editors differ",
-  "editorsDiffer": true
+  "term": "unhatched rapier",
+  "gloss": "using an unused (never used in battle) sword."
  },
  {
   "term": "unkind",
@@ -1482,7 +1476,7 @@
  },
  {
   "term": "unprofited",
-  "gloss": "without gain, fruitless"
+  "gloss": "unprofitable, fruitless, unsuccessful; fun fact, this is credited as the earliest recorded use of this word!"
  },
  {
   "term": "upbraids",
@@ -1514,7 +1508,7 @@
  },
  {
   "term": "Vice",
-  "gloss": "clownish villain of morality plays"
+  "gloss": "a stock character, a clownish villain in medieval and Tudor-era morality plays, the personification of evil, temptation, sin"
  },
  {
   "term": "vinegar and pepper",
@@ -1534,11 +1528,11 @@
  },
  {
   "term": "Vulcan",
-  "gloss": "Roman god of the forge"
+  "gloss": "Roman god of fire, metalwork, the forge."
  },
  {
   "term": "vulgar proof",
-  "gloss": "common experience"
+  "gloss": "common experience or common knowledge"
  },
  {
   "term": "watch",
@@ -1546,15 +1540,16 @@
  },
  {
   "term": "waylay",
-  "gloss": "ambush"
+  "gloss": "wait in hiding to ambush."
  },
  {
   "term": "We Three",
-  "gloss": "tavern sign picture of two fools or asses, the viewer being the third"
+  "gloss": "a joke on Toby, Andrew, and Feste based on a popular tavern sign that shows two donkeys with the caption \"We Three\", the punchline being that the viewer of the sign is the third fool.",
+  "url": "https://bardfilm.blogspot.com/2015/04/renaissance-april-fools-good-old-we.html"
  },
  {
   "term": "weaver",
-  "gloss": "weavers were known for singing psalms"
+  "gloss": "weavers (manual craft of creating cloth) were known for singing psalms and working class songs while working."
  },
  {
   "term": "weeds",
@@ -1562,7 +1557,7 @@
  },
  {
   "term": "welkin",
-  "gloss": "sky"
+  "gloss": "the sky, the heavens; an old idiom says to \"make the welkin ring\", or to party so exuberantly/loudly that the sky rings or celebrates with you."
  },
  {
   "term": "well fleshed",
@@ -1574,15 +1569,15 @@
  },
  {
   "term": "westward ho",
-  "gloss": "cry of London boatmen going west on the Thames"
+  "gloss": "a shout of boatmen to say they are headed west on the Thames River to attract passengers; a playful sign-off from Viola here"
  },
  {
   "term": "whirligig",
-  "gloss": "spinning toy"
+  "gloss": "a spinning toy, think a top."
  },
  {
   "term": "willow cabin",
-  "gloss": "hut of willow, symbol of unhappy love"
+  "gloss": "a structure made of willow; willow symbolized unrequited/forsaken love, an exaggeration on Orsino's enduring passion at Olivia's door (ironically, undertaken by messengers in his place, leading to Olivia's falling for Cesario's passion instead of Orsino's)"
  },
  {
   "term": "windy side of the law",
@@ -1602,11 +1597,11 @@
  },
  {
   "term": "yeoman of the wardrobe",
-  "gloss": "servant in charge of the household's clothes"
+  "gloss": "servant in charge of the household clothes"
  },
  {
   "term": "yew",
-  "gloss": "evergreen tree of graveyards"
+  "gloss": "an evergreen tree often planted in graveyards at the time; symbolic of death, poison, gloom, possibly due to its poisonous nature"
  },
  {
   "term": "yonder",

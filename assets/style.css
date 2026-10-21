@@ -167,11 +167,6 @@ section { padding-top: 1.6rem; }
 .l.songline { padding-left: 0; text-indent: 0; }
 .l.prose { white-space: normal; padding-left: 0; text-indent: 0; }
 .l em { color: var(--muted); }
-.num {
-  position: absolute; left: -3.2rem; width: 2.2rem; text-align: right; text-indent: 0;
-  font-size: .78rem; color: var(--muted); user-select: none; top: .22rem;
-}
-@media (max-width: 62rem) { .num { display: none; } }
 button.g {
   color: inherit; background: var(--mark); border: 0; border-radius: 3px; padding: .02em .22em; margin: 0 -.08em;
   cursor: pointer; box-decoration-break: clone; -webkit-box-decoration-break: clone;
@@ -227,4 +222,115 @@ footer { max-width: var(--measure); margin: 3rem auto 0; color: var(--muted); fo
   .site .name { font-size: .95rem; }
   .site .here { display: block; margin-left: 0; font-size: .85rem; }
   .hero.small .sub { display: none; }
+}
+
+/* Script page additions: line links, character picker, production notes.
+   I paste this block into assets/style.css before the footer rule. */
+:root { --note-cut: #B98A1F; --note-adapt: #1D6B70; --note-stage: #5F8A66; --note-dram: #4A6FA5; --note-tint: rgba(29,107,112,.12); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --note-cut: #D9AE48; --note-adapt: #5FB4B8; --note-stage: #8DB594; --note-dram: #8FB0DE; --note-tint: rgba(95,180,184,.16); } }
+:root[data-theme="dark"] { --note-cut: #D9AE48; --note-adapt: #5FB4B8; --note-stage: #8DB594; --note-dram: #8FB0DE; --note-tint: rgba(95,180,184,.16); }
+
+.whopick { display: inline-flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.whopick label { font-size: .95rem; }
+.whopick select.btn { font: inherit; }
+.lnk { position: absolute; top: 0; right: 0; font: inherit; font-size: .75rem; color: var(--muted); background: none; border: 0; padding: .1rem .3rem; cursor: pointer; opacity: .55; text-decoration: underline dotted; }
+.speech:hover .lnk, .lnk:focus-visible { opacity: 1; }
+.lnk:focus-visible, .nt:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.l.target { background: var(--mark); border-radius: 3px; box-shadow: -.4rem 0 0 var(--mark), .4rem 0 0 var(--mark); }
+
+button.nt { display: inline-block; vertical-align: middle; margin-left: .5rem; font: inherit; font-size: .72rem; line-height: 1.5; color: var(--fg); background: var(--surface);
+  border: 1px solid var(--tc); border-radius: 999px; padding: 0 .55rem; cursor: pointer; text-indent: 0; white-space: nowrap; }
+button.nt::before { content: ""; display: inline-block; width: .5rem; height: .5rem; border-radius: 50%; background: var(--tc); margin-right: .3rem; }
+button.nt[aria-expanded="true"] { background: var(--note-tint); }
+[data-type="cut"] { --tc: var(--note-cut); } [data-type="adapt"] { --tc: var(--note-adapt); } [data-type="stage"] { --tc: var(--note-stage); } [data-type="dram"] { --tc: var(--note-dram); }
+.card.notecard { border-left-color: var(--tc); }
+.scenenotes { max-width: 46rem; margin: 0 0 1.4rem; }
+.scenenotes h3 { font-size: 1rem; margin: 0 0 .3rem; }
+.scenenotes .card { margin-left: 0; }
+.nt-off .nt, .nt-off .scenenotes, .nt-off .notecard { display: none; }
+
+.whoOn .speech:not(.mine), .whoOn .dirline { opacity: .32; }
+.whoOn .speech.mine .who { color: var(--accent); }
+:root:not([data-theme="dark"]) .whoOn .speech.mine .who { color: var(--teal); }
+.whoHide .speech:not(.mine), .whoHide .dirline { display: none; }
+@media print { .tools, .lnk, .scenenav, .nt, #lights, .site { display: none !important; } .speech { break-inside: avoid; } }
+
+.num { position: absolute; left: -3.2rem; width: 2.2rem; text-align: right; text-indent: 0;
+  font-size: .78rem; color: var(--muted); user-select: none; top: .22rem; }
+.num.inl { position: static; display: inline-block; width: auto; margin: 0 .35em 0 .15em; font-size: .68rem; vertical-align: .25em; opacity: .8; }
+.num.inl:first-child { margin-left: 0; }
+@media (max-width: 62rem) {
+  .l:not(.prose) .num { position: static; display: inline-block; width: 1.4rem; margin-right: .2rem; text-align: right; text-indent: 0; }
+}
+
+/* Long reading pages (About, Key West, Queer themes, Class themes) */
+.prose h2 { margin-top: 2.2rem; }
+.prose > h2:first-child, .prose > p:first-child + h2 { margin-top: 1.6rem; }
+.prose h3 { margin: 1.6rem 0 .5rem; }
+.prose ul, .prose ol { max-width: 62ch; padding-left: 1.3rem; margin: 0 0 1em; }
+.prose li { margin-bottom: .55rem; }
+.prose li > ul, .prose li > ol { margin: .5rem 0 .2rem; }
+.prose blockquote { margin: 1.2rem 0; padding: .1rem 1.2rem; max-width: 62ch; border-left: 4px solid var(--accent); font-style: italic; }
+.prose blockquote p { margin: .6rem 0; }
+.prose figure { margin: 1.5rem 0; max-width: 40rem; }
+.prose figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.prose figcaption { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
+.prose .note { border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: .7rem 1rem; background: var(--bg); }
+.tablewrap { overflow-x: auto; margin: 1.2rem 0; }
+.tablewrap table { border-collapse: collapse; min-width: 100%; font-size: .95rem; }
+.tablewrap th, .tablewrap td { text-align: left; vertical-align: top; padding: .55rem .7rem; border-bottom: 1px solid var(--line); }
+.tablewrap th { border-bottom: 2px solid var(--accent); }
+
+/* Dropdown definition terms */
+button.dd {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer;
+  border-bottom: 2px dotted var(--accent); line-height: inherit; text-align: inherit; display: inline;
+}
+button.dd::after { content: " \25BE"; font-size: .75em; color: var(--accent); }
+button.dd:hover, button.dd[aria-expanded="true"] { background: var(--mark); }
+.prose .ddcard { margin: .5rem 0 .4rem 0; display: block; }
+
+/* Concept map. I paste this block into assets/style.css before the footer rule, replacing any earlier concept map block. */
+:root { --cm-gold: #B98A1F; --cm-salmon: #E4725E; --cm-teal: #1D6B70; --cm-sage: #5F8A66; --cm-il: rgba(191,224,219,.35); --cm-ks: rgba(238,139,121,.14); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --cm-gold: #D9AE48; --cm-salmon: #F29A87; --cm-teal: #5FB4B8; --cm-sage: #8DB594; --cm-il: rgba(95,180,184,.14); --cm-ks: rgba(242,154,135,.12); } }
+:root[data-theme="dark"] { --cm-gold: #D9AE48; --cm-salmon: #F29A87; --cm-teal: #5FB4B8; --cm-sage: #8DB594; --cm-il: rgba(95,180,184,.14); --cm-ks: rgba(242,154,135,.12); }
+
+.cm-intro { max-width: 40rem; margin: 0 0 1rem; }
+.cm-bar { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 3.6rem); z-index: 15; display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; justify-content: space-between;
+  background: var(--bg); padding: .6rem 0; border-bottom: 1px solid var(--line); }
+.cm-view { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); padding: 3px; }
+.cm-view button { font: inherit; font-size: .92rem; color: var(--fg); background: none; border: 0; border-radius: 999px; padding: .4rem .9rem; cursor: pointer; min-height: 38px; }
+.cm-view button[aria-pressed="true"] { background: var(--cm-teal); color: #fff; font-weight: 600; }
+:root[data-theme="dark"] .cm-view button[aria-pressed="true"] { color: #10272B; }
+.cm-nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: .95rem; }
+.cm-nav a { padding: .3rem 0; }
+.cm-sec { padding-top: 1.4rem; scroll-margin-top: 7.5rem; }
+.cm-sec > h3 { font-size: 1.5rem; margin: 0 0 .6rem; }
+.cm-sub { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 1.1rem 0 .4rem; font-weight: 600; }
+.cm-row { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--cm-teal); border-radius: 6px; margin: 0 0 .7rem; padding: .8rem 1rem; scroll-margin-top: 7.5rem; }
+.cm-row[data-type="action"] { border-left-color: var(--cm-salmon); }
+.cm-row[data-type="theme"] { border-left-color: var(--cm-gold); }
+.cm-row[data-type="place"] { border-left-color: var(--cm-sage); }
+.cm-row:target { box-shadow: 0 0 0 3px var(--accent); }
+.cm-head { display: flex; flex-wrap: wrap; gap: .3rem .8rem; align-items: baseline; justify-content: space-between; }
+.cm-head h4 { margin: 0; font-size: 1.12rem; }
+.cm-tags .tag { font-size: .75rem; border: 1px dashed var(--muted); border-radius: 999px; padding: .05rem .5rem; background: rgba(238,139,121,.22); }
+.cm-cols { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: .5rem; }
+.cm-col { padding: .5rem .7rem; border-radius: 4px; min-width: 0; }
+.cm-col p { margin: 0; }
+.cm-col p + p { margin-top: .15rem; }
+.cm-col.il { background: var(--cm-il); } .cm-col.ks { background: var(--cm-ks); }
+.cm-label { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.cm-foot { margin-top: .5rem; font-size: .93rem; }
+.cm-foot p { margin: .2rem 0; } .cm-foot details { margin: .3rem 0; } .cm-foot summary { cursor: pointer; min-height: 30px; }
+.cm-foot ul { margin: .3rem 0 .3rem 1.1rem; padding: 0; }
+.cmap[data-view="illyria"] .cm-cols, .cmap[data-view="keys"] .cm-cols { grid-template-columns: 1fr; }
+.cmap[data-view="illyria"] .ks, .cmap[data-view="keys"] .il { display: none; }
+.cm-legend { margin-top: 1.4rem; font-size: .9rem; }
+.cm-view button:focus-visible, .cm-nav a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+@media (max-width: 700px) {
+  .cm-cols { grid-template-columns: 1fr; }
+  .cm-bar { top: calc(env(safe-area-inset-top, 0px) + 3.4rem); }
+  .cm-view { width: 100%; } .cm-view button { flex: 1; padding: .4rem .3rem; font-size: .85rem; }
+  .cm-nav { gap: .8rem; font-size: .9rem; }
 }

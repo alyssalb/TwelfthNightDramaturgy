@@ -16,6 +16,8 @@ assets/glossary.js, notes.js      the glossary and notes pages
 data/cut.txt                      the cut version of the script
 data/script.json                  the interactive cut, from cut.txt (don't edit)
 data/glossary.json                the glossary entries on top of the cut text
+data/annotations.json             production notes (cut, adaptation, staging, dramaturgy)
+data/conceptmap.json              the concept map nodes and connections (a blank line in a note starts a new paragraph)
 data/notes.json                   Notes from the field (discoveries in rehearsal)
 tools/build_script.py             rebuilds script.json from cut.txt
 ```
@@ -35,6 +37,8 @@ Save, reload, and it is highlighted everywhere it appears in the script and list
 - `"editorsDiffer": true` adds the line "Editors differ on this one."
 - `"noHighlight": true` lists the entry on the Glossary page but does not highlight it in the script.
 - `"match"` is a pattern for words that need context. The part inside the first pair of parentheses is what gets highlighted. Example: `"match": "(catch)(?! the plague)"` highlights "catch" except in "catch the plague". I use this when a plain word would light up in places where it means something ordinary.
+- `"repeat": true` highlights the word again in later scenes. Without it, each word is highlighted only the first time it appears in the script, and only its first instance in that scene.
+- `"url"` adds a "Source" link to the gloss card.
 
 **To change the script.** Edit data/cut.txt, then from this folder run:
 
@@ -50,6 +54,6 @@ That rewrites data/script.json. Commit both files. Line numbers follow cut.txt, 
 
 ## Highlighting
 
-When a scene opens, reader.js reads data/glossary.json and searches each speech for every term, ignoring capitals. It matches whole words only, lets a phrase run across a line break, skips stage directions in [brackets], and when two terms overlap the longer one wins. Nothing is stored in the script itself, so changing the glossary doesn't necessitate rebuilding the script.
+When a scene opens, reader.js reads data/glossary.json and searches each speech for every term, ignoring capitals. It matches whole words only, lets a phrase run across a line break, skips stage directions in [brackets], and when two terms overlap the longer one wins. Each word is highlighted only in the first scene where it appears (in script order), unless its entry has `repeat`. Nothing is stored in the script itself, so changing the glossary doesn't necessitate rebuilding the script.
 
 Tap or click to open a card with the gloss and the scene and line. On a computer, hovering shows a short preview. The "Glossary highlights" button turns every highlight off, and the toggle/choice is remembered on that device.
