@@ -60,7 +60,7 @@
     var parts = /^([a-z0-9]+)(?:\.(\d+))?$/.exec(h) || [];
     var id = parts[1] || '', target = parts[2] ? +parts[2] : null;
     var s = SCRIPT.filter(function (x) { return x.id === id; })[0];
-    document.title = (s ? sceneTitle(s) + ' | ' : 'Script | ') + 'Twelfth Night, Key West';
+    document.title = (s ? sceneTitle(s) + ' | ' : 'Script | ') + 'Twelfth Night';
     out.innerHTML = '';
     if (s) drawScene(s, target); else drawIndex();
     if (!(s && target)) window.scrollTo(0, 0);

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Twelfth Night, Key West</title>
+<title>Twelfth Night</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap">
@@ -13,7 +13,7 @@
 <header class="hero">
   <svg id="lights" aria-hidden="true"></svg>
   <div class="in">
-    <h1>Twelfth Night,<br>Key West</h1>
+    <h1>Twelfth Night</h1>
     <p class="sub">Dramaturgy Materials</p>
   </div>
 </header>
@@ -31,8 +31,9 @@
     <h2>Start here</h2>
     <ul class="cards">
       <li class="pop"><a href="script.html"><h3>Script</h3><p>The cut text, scene by scene. Tap a highlight to read the gloss.</p></a></li>
+      <li><a href="directors-vision.html"><h3>Director's Vision</h3><p>The director's take on the production, with a mood board.</p></a></li>
       <li><a href="about.html"><h3>About the play</h3><p>The plot, our adaptation, and how to use this packet.</p></a></li>
-      <li><a href="key-west.html"><h3>Key West</h3><p>The setting and its history.</p></a></li>
+      <li><a href="key-west.html"><h3>Inspiration From Key West</h3><p>The setting and its history.</p></a></li>
       <li><a href="queer-themes.html"><h3>Queer themes</h3><p>Disguise, desire, and the island's own history.</p></a></li>
       <li><a href="class-themes.html"><h3>Class themes</h3><p>Service, status, and the resort economy.</p></a></li>
       <li class="pop"><a href="concept-map.html"><h3>Concept map</h3><p>A web of themes, characters, and places you can click through.</p></a></li>
@@ -40,8 +41,50 @@
       <li><a href="notes.html"><h3>Notes from the field</h3><p>Questions and discoveries from the rehearsal process</p></a></li>
     </ul>
   </section>
+  <section class="panel prose" id="visuals">
+    <h2>Visuals and Videos</h2>
+    <!-- IMAGES: one <li> per image, same as the Director's Vision page. Change the file name and the alt text (a short description for screen readers). -->
+    <ul class="vision-grid natural">
+      <li><button type="button"><img src="img/visuals/conch-republic-flag.webp" alt="The Conch Republic flag of Key West: a gold sunburst around a conch shell on a navy field, with the words Conch Republic, 1828, and Key West and a scattering of white stars." width="1920" height="1152" loading="lazy"></button></li>
+      <li><button type="button"><img src="img/visuals/key-west-map.jpg" alt="An illustrated tourist map of Key West, showing the island's streets, beaches, and numbered attractions, with a key to the map at the top and attraction listings below." width="1800" height="1391" loading="lazy"></button></li>
+    </ul>
+    <p class="note"><strong>Content note:</strong> May contain nudity or other adult content</p>
+    <div class="vidgrid">
+    <figure>
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/nuZ8A3t3wos" title="Fantasy Fest 2026 Parade" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption>Fantasy Fest 2026 Parade</figcaption>
+    </figure>
+    <figure>
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/G4PIMtGFm98" title="Fantasy Fest Travel Guide" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption>Fantasy Fest Travel Guide</figcaption>
+    </figure>
+    <figure>
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/ugKH9EWsUCY" title="Tarpon Feeding" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption>Tarpon Feeding</figcaption>
+    </figure>
+    <figure>
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/YI0FChfzwso" title="Walk Through Duval Street on a &quot;Normal Night&quot;" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption>Walk Through Duval Street on a "Normal Night"</figcaption>
+    </figure>
+    <figure>
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/aaDvZfFoE5o" title="Road Trip to Key West" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption>Road Trip to Key West</figcaption>
+    </figure>
+    <figure>
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/RACnN0izfBk" title="Background on the Conch Republic" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <figcaption>Background on the Conch Republic</figcaption>
+    </figure>
+    </div>
+  </section>
 </main>
+<div class="vbox" id="vbox" role="dialog" aria-modal="true" aria-label="Image" hidden>
+  <button type="button" class="vclose" aria-label="Close">&times;</button>
+  <button type="button" class="vprev" aria-label="Previous image">&#8249;</button>
+  <figure><img alt=""><p class="vcount" aria-live="polite"></p></figure>
+  <button type="button" class="vnext" aria-label="Next image">&#8250;</button>
+</div>
 <script src="assets/site.js"></script>
+<script src="assets/vision.js"></script>
 
 </body>
 </html>

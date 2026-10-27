@@ -3,11 +3,12 @@
 
    To add, rename or reorder pages, I edit the PAGES list below. */
 
-var SITE_NAME = 'Twelfth Night, Key West';
+var SITE_NAME = 'Twelfth Night';
 var PAGES = [
   { href: 'index.html',        label: 'Home' },
+  { href: 'directors-vision.html', label: "Director's Vision" },
   { href: 'about.html',        label: 'About the play' },
-  { href: 'key-west.html',     label: 'Key West' },
+  { href: 'key-west.html',     label: 'Inspiration From Key West' },
   { href: 'queer-themes.html', label: 'Queer themes' },
   { href: 'class-themes.html', label: 'Class themes' },
   { href: 'concept-map.html',  label: 'Concept map' },
@@ -71,7 +72,7 @@ var PAGES = [
 
   // Footer
   var f = document.createElement('footer');
-  f.innerHTML = '<p>Research packet for the cast and crew of Twelfth Night, Key West.</p>';
+  f.innerHTML = '<p>Research packet for the cast and crew of Twelfth Night.</p>';
   document.body.appendChild(f);
 
   // String lights: round bulbs hung in swags, drawn at true pixel size. I only let one random bulb brighten at a time so it twinkles without getting busy.

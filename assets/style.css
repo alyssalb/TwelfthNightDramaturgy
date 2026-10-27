@@ -1,4 +1,4 @@
-/* Twelfth Night, Key West: packet site styles.
+/* Twelfth Night: packet site styles.
    All my colors are tokens in :root. Dark mode redefines the same tokens.
    To change the look, I change the tokens first. */
 
@@ -334,3 +334,56 @@ button.dd:hover, button.dd[aria-expanded="true"] { background: var(--mark); }
   .cm-view { width: 100%; } .cm-view button { flex: 1; padding: .4rem .3rem; font-size: .85rem; }
   .cm-nav { gap: .8rem; font-size: .9rem; }
 }
+
+/* Director's Vision: mood board grid and the large viewer */
+.vision { margin-top: 2rem; }
+.vision-grid { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+.vision-grid li { min-width: 0; }
+.vision-grid button { display: block; width: 100%; padding: 0; border: 1px solid var(--line); background: var(--surface); cursor: zoom-in; line-height: 0; }
+.vision-grid img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block; transition: opacity .15s; }
+.vision-grid button:hover img { opacity: .88; }
+.vision-grid button:focus-visible, .vbox button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+@media (max-width: 40rem) { .vision-grid { grid-template-columns: repeat(2, 1fr); gap: .5rem; } }
+.vbox { position: fixed; inset: 0; z-index: 100; background: rgba(16, 39, 43, .97); display: flex; align-items: center; justify-content: center; gap: .5rem;
+  padding: max(1rem, env(safe-area-inset-top, 0px)) max(.5rem, env(safe-area-inset-right, 0px)) max(1rem, env(safe-area-inset-bottom, 0px)) max(.5rem, env(safe-area-inset-left, 0px)); }
+.vbox[hidden] { display: none; }
+.vbox figure { margin: 0; max-width: min(1100px, 100%); min-width: 0; flex: 1 1 auto; display: flex; flex-direction: column; align-items: center; gap: .6rem; }
+.vbox img { max-width: 100%; max-height: calc(100vh - 6rem); max-height: calc(100dvh - 6rem); object-fit: contain; }
+.vcount { margin: 0; color: #F1E9D6; font-size: .9rem; }
+.vbox button { background: rgba(248, 243, 232, .14); color: #F8F3E8; border: 0; font: inherit; line-height: 1; cursor: pointer; }
+.vbox button:hover { background: rgba(248, 243, 232, .28); }
+.vprev, .vnext { font-size: 2.2rem; width: 2.8rem; height: 3.4rem; flex: 0 0 auto; }
+.vclose { position: absolute; top: max(.6rem, env(safe-area-inset-top, 0px)); right: max(.6rem, env(safe-area-inset-right, 0px)); font-size: 2rem; width: 2.8rem; height: 2.8rem; }
+@media (max-width: 40rem) { .vprev, .vnext { width: 2.2rem; height: 3rem; font-size: 1.8rem; } }
+body.vopen { overflow: hidden; }
+.lead { font-size: 1.2rem; font-style: italic; }
+.prose .sig { margin-top: 1.6rem; }
+
+/* Small bold label that introduces a group of bullets inside a section, like the ones under Marriage on the About page. I use it instead of another heading level. */
+.prose h3[id] { scroll-margin-top: 7.5rem; }
+.prose .sublabel { margin: 1.4rem 0 .3rem; font-weight: 700; }
+
+/* Images that should show whole, not cropped to 4:3 (a map, a flag). I add "natural" to the vision-grid ul to get this. */
+.vision-grid.natural { grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); align-items: start; }
+.prose .vision-grid { margin-left: 0; padding-left: 0; }
+.vision-grid.natural img { aspect-ratio: auto; object-fit: contain; }
+
+/* Embedded videos: two across on a wide screen, one on a phone, all the same 16:9 size.
+   The iframe fills the .embed box, which holds the shape even before the video loads. */
+.vidgrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem .9rem; margin: 1rem 0 0; }
+.vidgrid figure { margin: 0; min-width: 0; }
+.vidgrid .embed { position: relative; aspect-ratio: 16 / 9; background: var(--surface); border: 1px solid var(--line); }
+.vidgrid iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.vidgrid figcaption { margin-top: .4rem; font-size: .95rem; color: var(--muted); }
+@media (max-width: 40rem) { .vidgrid { grid-template-columns: 1fr; } }
+
+/* Scansion examples on the About page. Each syllable gets its own cell, with the stress mark in the row above it, so the marks line up over the right syllable.
+   The wide ones scroll sideways inside their own box on a phone. I add a new example by copying one table and changing the marks and syllables. */
+.prose code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .95em; background: var(--surface); border: 1px solid var(--line); padding: 0 .3em; border-radius: 3px; }
+.prose .marks { list-style: none; padding-left: 0; }
+.prose .marks li { margin: .35rem 0; }
+.scan { border-collapse: collapse; width: auto !important; min-width: 0 !important; }
+.tablewrap .scan td { text-align: center; padding: .15rem .45rem; border-bottom: 0; white-space: nowrap; }
+.scan .mk { font-family: ui-monospace, Menlo, Consolas, monospace; color: var(--accent); font-weight: 700; }
+.scan .bar { color: var(--muted); padding: .15rem .2rem; }
+@media (max-width: 40rem) { .tablewrap .scan td { padding: .1rem .2rem; font-size: .8rem; } .scan .bar { padding: .1rem .08rem; } }

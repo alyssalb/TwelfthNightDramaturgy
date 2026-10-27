@@ -1,5 +1,5 @@
 {
- "about": "Concept map data. Each node has an Illyria version and a Key West version. basis: notes = from the team's concept-map notes; stated = a production decision stated in conversation; draft = a first guess to confirm. An edge label reads as a sentence: [a] [label] [b]. Change any text here.",
+ "about": "Concept map data. Each node has two versions: the illyria field is the Original Text Illyria and the keys field is Our Illyria. I kept the field names so I don't have to rewrite the code that reads them; only the labels on the page changed. basis: notes = from the team's concept-map notes; stated = a production decision stated in conversation; draft = a first guess to confirm. An edge label reads as a sentence: [a] [label] [b]. Change any text here.",
  "nodes": [
   {
    "id": "viola",
@@ -10,7 +10,7 @@
    },
    "keys": {
     "label": "Viola / Cesario",
-    "note": "The disguise starts as protection and turns into experimentation and euphoria. In our interpretation she is some form of nonbinary, and her gender journey is central.",
+    "note": "In the storm, Viola is buoyed by a piece of Sebastian's luggage. Viola's gender expression may have been more femme in their past life, but finding themself in a foreign place where they can explore their gender more freely (and given the contents of Sebastian's luggage as their only resource), this becomes an opportunity for them to work through grief, carve out a new life for themself, and explore being perceived in a different way by the world. Since our Illyria is a queer-er world, adopting masculine attire is more about opportunity and intrigue than it is about protection.",
     "basis": "notes"
    },
    "context": [
@@ -42,7 +42,7 @@
    },
    "keys": {
     "label": "Sebastian",
-    "note": "Viola's twin. Possibly part of a throuple with Olivia and Antonio.",
+    "note": "Viola's twin. Rescued from the shipwreck and nursed back to health by Antonio. After saving him from drowning, Antonio delivered him to a hospital where he remained in a coma for a month or more. Antonio visited this \"John Doe\" religiously (perhaps giving him the name Rodrigo). After he regained consciousness, Antonio stood by him for another month through his rehabilitation and the aftermath of the amnesia from the traumatic brain injury suffered in the shipwreck. During this time, a romantic relationship blossomed. When we meet these two at the top of Act 2, Sebastian's memory of his sister and previous life has begun to return, and he is pulling away from Antonio in his newly-realized grief. He sees Olivia's proposal as an instantaneous class-climbing opportunity, but she's attractive to him as well. In OUR play's conclusion, Olivia is delighted that Sebastian and Antonio are a package deal, rather than Antonio having no resolution and Sebastian sailing off into heteronormative bliss.",
     "basis": "stated"
    },
    "page": "key-west.html",
@@ -63,7 +63,7 @@
    },
    "keys": {
     "label": "Antonio",
-    "note": "Loves Sebastian. Maybe a maritime worker or shipman of some sort.",
+    "note": "The captain of a small fishing boat, who is wanted in Illyria because of smuggling refugees and drugs onto the island. He may have also had a romantic relationship with Orsino in the past, and left him scorned, so Illyria is an unsafe place for him in general. He fell in love with Sebastian over the course of his recovery from the shipwreck, and wants to keep him safe, even if that means risking his own safety.",
     "basis": "stated"
    },
    "context": [
@@ -89,7 +89,7 @@
    },
    "keys": {
     "label": "Orsino",
-    "note": "New-money transplant who runs a business, trying to make money off the promise of tourism in the Keys. Orsino is, as in the original, taken by Cesario from the start, and should be delighted that they are still around after the business with Olivia at the end is sorted - he is perhaps more upset that Cesario has betrayed him than he is about losing Olivia, which is telling regarding the truth of his affections...",
+    "note": "A new-money transplant who made his fortune in the tech world. He has come to this area to escape Silicon Valley, seeking tranquility and love. He owns and manages the resort in name only, and his staff pretty much runs the hotel of their own accord while he occupies one of the more luxurious units, indulging in self-care and pining for Olivia. In the past, he may have had a brief tryst with Antonio, and wanted to tame his wanderlust and unlawful activities. When Antonio refused to be pinned down, Orsino banned him from the property and took out restraining orders. He is taken with Cesario and may have a bigger reaction to Cesario's perceived betrayal, having grown closer to him and accustomed to Olivia's repeated rejections. Characters adjacent to Orsino include his assistants, Curio and Valentine, and his security guards (Officers).",
     "basis": "notes"
    },
    "context": [
@@ -115,17 +115,13 @@
    },
    "keys": {
     "label": "Olivia",
-    "note": "Old money, local, from a long-established conch family. Possibly part of a throuple with Sebastian and Antonio.",
+    "note": "Olivia is the heiress of a large family fortune. Her family resided in the northeast, and were snowbirds who own the Penthouse suite at the Hotel Illyria as a winter retreat. Some of Olivia's fondest memories of her upbringing and life with her older brother (now deceased) happened at this resort and on these beaches. She has come here in the wake of her brother's passing to grieve and sort out her family's affairs, but is bombarded by suitors who are more interested in her as a rung on the class-climbing ladder than in her mind or spirit. She is attracted to anyone who sees beyond her fortune, and she knows her worth comprehensively. Olivia is intrigued by the gender duality inherent in Cesario, delighted when there are two of him, and open to inviting Antonio into her union with Sebastian at the play's conclusion. Olivia's desire to marry a eunuch, followed by a new opportunity to remain an enthusiastic fruit-fly to Antonio/Sebastian's union presumes that she may wish to avoid such entanglements in favor of her own autonomy. Her shrewdness in choosing a mate is observed by Sir Toby.",
     "basis": "notes"
    },
    "context": [
     {
      "t": "Conch: long-term inhabitants of Key West, usually with Bahamian and Caribbean lineage dating back to the nineteenth century.",
      "u": "class-themes.html"
-    },
-    {
-     "t": "Olivia's seven years of mourning is exaggerated mourning.",
-     "u": "about.html"
     }
    ],
    "page": "class-themes.html",
@@ -147,7 +143,7 @@
    },
    "keys": {
     "label": "Malvolio",
-    "note": "Perhaps ex or current military, or somehow tied to the authority of the US military base there. A symbol of undesired authority in a time and place of misrule. Getting rid of him perhaps gives further freedom to everyone else to be themselves more fully, which maps onto the original text's Puritan reading of him. Cannot stress enough that we aren't mocking his choice to self-express, but are rather mocking his performance for the sake of social climbing and his very annoying personality.",
+    "note": "The family lawyer, and the executor of Olivia's brother's will. Obsessed with law and order, and envisions a future for himself as Olivia's lover (which comes with it belonging to the aristocracy, and a life where he won't have to practice law). He has probably had to get Sir Toby off the hook for disorderly conduct or public drunkenness on more than one occasion. He is a buzzkill, a naysayer, and an uber-conservative curmudgeon with a superiority complex. His regular clothing is restrictive and not well-suited to the tropical climate. The letter provokes him to dress in a kinky and provocative way that defies his own style and moral compass. In our interpretation, he's set up by Maria/Toby/Andrew/Fabian/Feste because he was a party pooper; they torment him relentlessly because he has sold himself out completely in pursuit of Olivia's affection/attention.",
     "basis": "notes"
    },
    "context": [
@@ -187,7 +183,7 @@
    },
    "keys": {
     "label": "Maria",
-    "note": "A local with a history with Olivia's house and family. Pretty mischievous and excited to be let loose.",
+    "note": "Olivia's personal assistant accompanying her on a trip to the family's penthouse. Excellent at her job, but gradually prioritized revelry and revenge. She climbs the ladder from servant-class by marrying Toby (her partner in debauchery). She comes from a lower/middle class background, and is not necessarily a local of this area.",
     "basis": "notes"
    },
    "context": [
@@ -197,7 +193,7 @@
     },
     {
      "t": "In early modern London, women of lower status, often servants, sometimes married their masters, which allowed social mobility through marriage.",
-     "u": "class-themes.html"
+     "u": "about.html#marriage"
     }
    ],
    "page": "class-themes.html",
@@ -218,7 +214,7 @@
    },
    "keys": {
     "label": "Feste",
-    "note": "An entertainer who moves between rich households, festival locations, and bars in the area. He's the only person on the island that can and does say what he likes when he wants to, and he's so clever and lovable that no one ever truly minds.",
+    "note": "An entertainer who moves between rich households, festival locations, and bars in the area. He's a working performer who makes a living through making art, entertaining people, and sheer charisma - part busker, part virtuoso, part karaoke host. He's able to interact with autonomy with members of every class. He's the only person on the island that can and does say what he likes when he wants to, and he's so clever and lovable that no one ever truly minds. Perhaps he is unhoused and relies on the kindness of wealthy patrons and tips from tourists to get by.",
     "basis": "stated"
    },
    "context": [
@@ -250,7 +246,7 @@
    },
    "keys": {
     "label": "Sir Toby",
-    "note": "Old money local, but not in spirit: co-opting the culture, inauthentic.",
+    "note": "Olivia's uncle, who loved the party life around the family's winter home so much that he moved here and resides here full time, albeit in a much lamer bachelor's unit that he can afford on the allowance he's allotted from the family. A trust fund baby turned middle-aged New Conch. If the Lord and Lady of Misrule parallels the King and Queen of Fantasy Fest, he's probably the guy. He's an asshole, and a drunkard, but occasionally he uses it to rile up people for a good cause.",
     "basis": "notes"
    },
    "context": [
@@ -279,7 +275,7 @@
    },
    "keys": {
     "label": "Sir Andrew",
-    "note": "A big dumb excited tourist, here because his old friend Toby drew him in with empty promises. I don't think he ever really realizes how much he's been manipulated.",
+    "note": "The richest, and most gullible, of Toby's friends. They both sailed through an Ivy League education on the checkbooks of their families and likely met on a dirty sofa at a frat party. One drunken night, long ago, Toby may have led Andrew to believe that they could be more than just friends, but later denied everything and tried to redirect his affections to Olivia.",
     "basis": "notes"
    },
    "context": [
@@ -307,7 +303,7 @@
    },
    "keys": {
     "label": "Fabian",
-    "note": "An employee of Olivia. Still doesn't like Malvolio.",
+    "note": "The poolside bartender at the Hotel Illyria. She sees a lot, people tell her a lot, she collects what she needs to stir the pot and keep her days entertaining. She is a local, who bartends at a variety of venues, and although Olivia and her entourage have always tipped her handsomely, Malvolio only ever orders water and weirds out her other regular customers, driving them to spend their money elsewhere. Toby tips her well, and they likely regularly party together after hours.",
     "basis": "stated"
    },
    "scenes": [
@@ -367,15 +363,9 @@
    },
    "keys": {
     "label": "Olivia's seven-year mourning",
-    "note": "Olivia's family has been in Key West, and their reputation and status are established and known. A local big house closes itself off from the tourist-facing parts of the island, at least in part.",
+    "note": "Olivia's family have been wealthy snowbirds, visiting their penthouse at the Hotel Illyria for warm winters for many years. She cloisters herself in the family vacation suite, venturing out on rare occasion to bask in the sun, take a solitary walk down the resort's private beach, or reflect on her grief poolside.",
     "basis": "stated"
    },
-   "context": [
-    {
-     "t": "Olivia's seven years of mourning is exaggerated mourning.",
-     "u": "about.html"
-    }
-   ],
    "page": "about.html",
    "scenes": [
     "a1s1",
@@ -391,7 +381,7 @@
    },
    "keys": {
     "label": "Late Nights",
-    "note": "Fantasy Fest is a conceptual touchpoint for this production, a time of revelry during which usual social rules and norms go unobserved and free joy and partying and fun take over. Misrule is the purpose of this play and of this setting, a loosening of the rules, and embrace of chaos, and a collapse of class based hierarchies. The big question here is, who gets to enjoy this period of misrule, and who gets to continue their fun in the Keys after \"order\" is restored at the end of the play? What is the class difference in those two groups?",
+    "note": "Fantasy Fest is an inspiration for the revelry in our FL Keys-Inspired world. In both Twelfth Night festivities and Fantasy Fest, players experience a time of revelry during which usual social rules and norms go unobserved and free joy, partying, and fun take over. Misrule is the purpose of this play and our new setting, a loosening of the rules, an embrace of chaos, a collapse of class hierarchies. The big question here is - who is allowed to keep enjoying this period of misrule and continue their fun in the Keys after \"order\" is restored at the end of the play?",
     "basis": "stated"
    },
    "context": [
@@ -437,7 +427,7 @@
    },
    "keys": {
     "label": "Yellow stockings and cross-gartering",
-    "note": "Malvolio, crucially, does not like what we put him in for Fantasy Fest. He is not a fan, this is not an act of self expression, and he is only doing it so that Olivia might like him more and give him a leg up. We should really dislike him for this. This conversation will likely evolve as we rehearse. :)",
+    "note": "Malvolio, crucially, does not like what we put him in. His leather daddy cross-gartering is a giant reach into poser-dom. He is not a fan, and it is not an act of self expression. He is doing this so that he might have a better chance with Olivia. We should strongly dislike him for being hypocritical and donning attire that he would absolutely have judged others for wearing, and for representing a culture to which he would never assimilate if not for the promise of both love and status.",
     "basis": "stated"
    },
    "context": [
@@ -470,24 +460,6 @@
    ]
   },
   {
-   "id": "a-mixup",
-   "type": "action",
-   "illyria": {
-    "label": "Sebastian and Cesario",
-    "note": "Olivia (almost immediately) convinces Sebastian (who does not know her at all) to marry her, and does not get suspicious when he says yes (even though Cesario has never returned her affections and sweetness in the slightest). They get married immediately. Wow."
-   },
-   "keys": {
-    "label": "Sebastian and Cesario",
-    "note": "Honestly, think about all those couples that get married in Las Vegas on a whim because of the carnivalesque/festival politics of that space and time. This is probably something like that, especially for Sebastian. Sebastian and Antonio might also be in love a little, we'll discuss.",
-    "basis": "stated"
-   },
-   "page": "queer-themes.html",
-   "scenes": [
-    "a4s1",
-    "a4s3"
-   ]
-  },
-  {
    "id": "a-ending",
    "type": "action",
    "illyria": {
@@ -496,7 +468,7 @@
    },
    "keys": {
     "label": "The Ending",
-    "note": "All of this, but Viola stays as they are, having learned about themselves. Orsino thinks this is a whole vibe. :) Sebastian and Olivia are married and are maybe about to start negotiations with Antonio about what their lives will look like? Our audiences walk away with the understanding that we can embrace ourselves if we are authentic to ourselves, and we will be rewarded (Viola/Cesario, Sebastian, Olivia, Orsino, Antonio, and even Maria and Toby) and that if we try to be someone we're not for gain, we will be punished via social ostracization (Malvolio).",
+    "note": "All of this, but Viola stays as they are, having learned about themselves. Orsino thinks this is a whole vibe. :) Sebastian, Antonio, and Olivia are enjoying a new life together, and Olivia has her autonomy. Our audiences walk away with the understanding that we can embrace ourselves if we are authentic to ourselves, and we will be rewarded (Viola/Cesario, Sebastian, Olivia, Orsino, Antonio, Maria, Toby) and that if we try to be someone we're not for gain, we will be punished via social ostracization (Malvolio).",
     "basis": "stated"
    },
    "context": [
@@ -547,7 +519,7 @@
    },
    "keys": {
     "label": "Grief and melancholy",
-    "note": "In our modern setting, we understand melancholy as at most a mental health situation, and generally as a generic feeling of woe. We may rib our friends gently for being as dramatic about a girl they don't even know as Orsino is for Olivia. Orsino perhaps sees Olivia's status as a perk of dating/marrying her, and thinks they'd be the perfect \"power couple\". Olivia is annoyed by this, and keeps shooting him down but he just isn't getting the message.\n\nOlivia's grief takes on new context in the modern time as well, and her performance of grief (7 years of observance) reads as extremely dramatic now, in many ways, as does her exaggerated performance of mourning. This is a bigger conversation, but the way we see these characters and their sadness is certainly different in a modern context - but they still both have too much time and money for their own good.",
+    "note": "In our modern setting, we understand melancholy as at most a mental health situation, and generally as a generic feeling of woe. We may rib our friends gently for being as dramatic about a girl they don't even know as Orsino is for Olivia. Orsino perhaps sees Olivia's status as a perk of dating/marrying her, and thinks they'd be the perfect \"power couple\". Olivia is annoyed by this, and keeps shooting him down but he just isn't getting the message.\n\nOlivia's grief takes on new context in the modern time as well, and her performance of grief (7 years of observance) reads as extremely dramatic now, in many ways, as does her exaggerated performance of mourning. So much of comedy and camp comes from a place of pain and grief, and the circumstances of this play have their roots in fresh grief from recently departed siblings. This is a bigger conversation, and will be a major driver in our exploration of this material.",
     "basis": "stated"
    },
    "page": "about.html"
@@ -571,10 +543,10 @@
     },
     {
      "t": "Marrying someone of a different social standing was generally discouraged among the elite.",
-     "u": "class-themes.html"
+     "u": "about.html#marriage"
     }
    ],
-   "page": "class-themes.html"
+   "page": "about.html#marriage"
   },
   {
    "id": "p-oldtown",
@@ -585,7 +557,7 @@
    },
    "keys": {
     "label": "Olivia's House vs Orsino's House",
-    "note": "Olivia likely lives in a long-established house, probably in the Old Town area. Her family has lived there for a while, and are well situated and respected in the community. Orsino is a newer implant in the area, and is perhaps a businessman trying to exploit the gains of the tourism market in the Keys. His home is in a trendier side of town, a luxury market in the millions. Both of them live in the resort area of town, away from the relative poverty of the working class there, and are out of touch of the more difficult realities of living in the Keys full time.",
+    "note": "Olivia and her family are snowbirds from the Northeast, who spend their winters in the warm climate at their family-owned penthouse suite at the Hotel Illyria. Their family is well-known nationally for their philanthropy and contributions to a variety of causes in both their community and their temporary winter home. Orsino is a newer implant in the area, and is perhaps trying to exploit the tourism market. He may be building a big new home on the trendier side of town, but while he continues to live the bachelor's life, he's using the resort's amenities to pamper himself, place himself nearer to the object of his 'affection', and loosely feign management of the resort.",
     "basis": "stated"
    },
    "page": "key-west.html"
@@ -599,7 +571,7 @@
    },
    "keys": {
     "label": "Revelry",
-    "note": "Revels may occur in the tourism areas, playing at the fancy resorts with tourists and acting like a temporary guest. Fantasy Fest street fairs are held in this district, and the more local Goombay festival is held just off the main drag, so this would be the place to be during their festival season.",
+    "note": "The majority of the Fantasy Fest-esque revels happen on the main island, while on occasion small events and private entertainments will be hosted at the upscale Hotel Illyria Island Resort.",
     "basis": "stated"
    },
    "page": "key-west.html"
@@ -613,7 +585,7 @@
    },
    "keys": {
     "label": "Twelfth Night and Fantasy Fest",
-    "note": "Similarly for our new setting, Fantasy Fest is not necessarily the direct setting of the play, but is a useful lens and conceptual touchpoint to help us catch the vibe of the show and why the characters act as they do.",
+    "note": "Similarly for our new setting, Fantasy Fest is not the direct setting of the play but the inspiration for the type of rulebending, mischief-making, and revelry we hope to depict in this production.",
     "basis": "stated"
    },
    "context": [
@@ -731,9 +703,9 @@
    "label": "is mistaken for Sebastian by"
   },
   {
-   "a": "andrew",
-   "b": "viola",
-   "label": "challenges to a duel"
+   "a": "viola",
+   "b": "andrew",
+   "label": "is challenged to a duel by"
   },
   {
    "a": "viola",
@@ -856,26 +828,6 @@
    "label": ""
   },
   {
-   "a": "sebastian",
-   "b": "a-mixup",
-   "label": ""
-  },
-  {
-   "a": "olivia",
-   "b": "a-mixup",
-   "label": ""
-  },
-  {
-   "a": "toby",
-   "b": "a-mixup",
-   "label": ""
-  },
-  {
-   "a": "andrew",
-   "b": "a-mixup",
-   "label": ""
-  },
-  {
    "a": "viola",
    "b": "a-ending",
    "label": ""
@@ -933,11 +885,6 @@
   {
    "a": "a-duel",
    "b": "t-class",
-   "label": ""
-  },
-  {
-   "a": "a-mixup",
-   "b": "t-marriage",
    "label": ""
   },
   {

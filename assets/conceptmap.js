@@ -1,4 +1,4 @@
-/* Concept map as a side-by-side page: Illyria on the left, our Key West on the right.
+/* Concept map as a side-by-side page: the Original Text Illyria on the left, Our Illyria on the right.
    I edit the words in data/conceptmap.json, not this file. Everything shows at once; nothing needs a click. */
 (function(){
   var BASIS_DRAFT='Draft, please check';
@@ -30,8 +30,8 @@
     var head=el('div','cm-head'); head.appendChild(el('h4',null,n.keys.label===n.illyria.label?n.keys.label:n.illyria.label+'  →  '+n.keys.label));
     var tags=el('span','cm-tags'); if(n.keys.basis==='draft'){var t=el('span','tag draft',BASIS_DRAFT); tags.appendChild(t);} head.appendChild(tags); r.appendChild(head);
     var cols=el('div','cm-cols');
-    var a=el('div','cm-col il'); a.appendChild(el('p','cm-label','Illyria')); paras(a,n.illyria.note);
-    var b=el('div','cm-col ks'); b.appendChild(el('p','cm-label','Our Key West')); paras(b,n.keys.note);
+    var a=el('div','cm-col il'); a.appendChild(el('p','cm-label','Original Text Illyria')); paras(a,n.illyria.note);
+    var b=el('div','cm-col ks'); b.appendChild(el('p','cm-label','Our Illyria')); paras(b,n.keys.note);
     cols.appendChild(a); cols.appendChild(b); r.appendChild(cols);
     var foot=el('div','cm-foot');
     if(n.type==='character'){var rel=relations(n.id); if(rel.length){var p=el('p','cm-rel'); p.appendChild(el('strong',null,'Relationships: ')); p.appendChild(document.createTextNode(rel.join(' '))); foot.appendChild(p);}}
@@ -50,7 +50,7 @@
     root.textContent='';
     var bar=el('div','cm-bar');
     var view=el('div','cm-view'); view.setAttribute('role','group'); view.setAttribute('aria-label','Show');
-    [['both','Side by side'],['illyria','Illyria only'],['keys','Key West only']].forEach(function(p){
+    [['both','Side by side'],['illyria','Original Text Illyria only'],['keys','Our Illyria only']].forEach(function(p){
       var b=el('button',null,p[1]); b.type='button'; b.dataset.v=p[0];
       b.addEventListener('click',function(){setView(p[0]);}); view.appendChild(b);});
     var nav=el('nav','cm-nav'); nav.setAttribute('aria-label','Sections');

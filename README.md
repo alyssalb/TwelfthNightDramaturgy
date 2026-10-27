@@ -1,5 +1,7 @@
 # Twelfth Night: cast and crew packet
 
+This is my packet site.
+
 ## What is where
 
 ```
@@ -52,6 +54,6 @@ That rewrites data/script.json. Commit both files. Line numbers follow cut.txt, 
 
 ## Highlighting
 
-When a scene opens, reader.js reads data/glossary.json and searches each speech for every term, ignoring capitals. It matches whole words only, lets a phrase run across a line break, skips stage directions in [brackets], and when two terms overlap the longer one wins. Each word is highlighted only in the first scene where it appears (in script order), unless its entry has `repeat`. Nothing is stored in the script itself, so changing the glossary doesn't necessitate rebuilding.
+When a scene opens, reader.js reads data/glossary.json and searches each speech for every term, ignoring capitals. It matches whole words only, lets a phrase run across a line break, skips stage directions in [brackets], and when two terms overlap the longer one wins. Each word is highlighted only in the first scene where it appears (in script order), unless its entry has `repeat`. Nothing is stored in the script itself, so changing the glossary doesn't necessitate rebuilding the script.
 
 Tap or click to open a card with the gloss and the scene and line. On a computer, hovering shows a short preview. The "Glossary highlights" button turns every highlight off, and the toggle/choice is remembered on that device.
